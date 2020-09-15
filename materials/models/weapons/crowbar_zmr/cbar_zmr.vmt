@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture	"models/weapons/crowbar_zmr/cbar_bc"
+	$bumpmap		"models/weapons/crowbar_zmr/cbar_n"
+	$mraotexture	"models/weapons/crowbar_zmr/cbar_mrao"
+	// $emissiontexture		"models/weapons/crowbar_zmr/mix25_e"
+	$model			1
+	// $translucent	1
+}

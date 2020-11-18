@@ -779,8 +779,8 @@ event ZMBarsShow
 	
 	Animate ZMHudBars		BarAlpha			"255"		Linear		0.0		0.5
 	
-	Animate ZMHudBars		TopBarY				"75"		Linear		0.0		0.5
-	Animate ZMHudBars		BottomBarY			"405"		Deaccel		0.0		0.5
+	Animate ZMHudBars		TopBarY				"85"		Linear		0.0		0.5
+	Animate ZMHudBars		BottomBarY			"395"		Deaccel		0.0		0.5
 }
 
 event ZMBarsHide

@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture 	"models/weapons/w_rifle_zmr/wsight_bc"
+	$bumpmap		"models/weapons/w_rifle_zmr/wsight_n"
+	$mraotexture	"models/weapons/w_rifle_zmr/wsight_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

@@ -1,15 +1,8 @@
-"vertexlitgeneric"
+PBR
 {
-	"$basetexture" "models/weapons/rifle_zmr/sights"
-	//"$bumpmap" "models/weapons/new_pistol/pistol_normal"
-	
-	"$surfaceprop" "metal"
+	$basetexture "models/weapons/rifle_zmr/sights_bc"
+	$bumpmap "models/weapons/rifle_zmr/sights_n"
+	$mraotexture	"models/weapons/rifle_zmr/sights_mrao"
+	$emissive	"models/weapons/rifle_zmr/sights315_emiss"
 	$model 1
-
-	
-	$detail "models\weapons\rifle_zmr\sights315_emiss"
-	$detailblendmode 5
-	$detailscale 1
-	
-	
 }

@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/sledham_zmr/sledham_bc"
+	$bumpmap		"models/weapons/sledham_zmr/sledham_n"
+	$mraotexture	"models/weapons/sledham_zmr/sledham_mrao"
+	//$emissiontexture		"models/sledham_zmr/mixtape/mix25_e"
+	$model			1
+}

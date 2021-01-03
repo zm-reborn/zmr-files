@@ -10,6 +10,7 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
+		// FRAMES fire 0-27, lever 28-97
 		"firerate"			"0.35"
 		"damage"			"50"
 		"range"				"2000"
@@ -49,7 +50,7 @@ WeaponData
 	{
 
 		"empty"				"Weapon_Rifle_ZM.Empty"
-		//"special1"			"Weapon_Rifle_ZM.Special1"
+		"special1"			"Weapon_Rifle_ZM.Special1"
 		"single_shot"		"Weapon_Rifle_ZM.Single"
 	}
 

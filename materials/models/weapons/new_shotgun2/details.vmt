@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/new_shotgun2/details_bc"
+	$bumpmap		"models/weapons/new_shotgun2/details_n"
+	$mraotexture	"models/weapons/new_shotgun2/details_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

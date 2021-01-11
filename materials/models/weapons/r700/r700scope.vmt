@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture	"models/weapons/r700/scope_bc"
+	$bumpmap		"models/weapons/r700/scope_n"
+	$mraotexture	"models/weapons/r700/scope_mrao"
+	$model			1
+}

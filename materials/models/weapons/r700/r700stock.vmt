@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture	"models/weapons/r700/wood_bc"
+	$bumpmap		"models/weapons/r700/wood_n"
+	$mraotexture	"models/weapons/r700/wood_mrao"
+	$model			1
+}

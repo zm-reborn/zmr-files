@@ -25,6 +25,7 @@
 		
 		//
 		// Spawn other shotgun types in old maps.
+		// normal shotgun and overunder
 		//
 		"Stock_SpawnOtherShotgunTypes"
 		{
@@ -33,6 +34,19 @@
 			"filter_class"		"weapon_zm_shotgun"
 			
 			"replace"		"Shotgun"
+		}
+		
+		//
+		// Spawn other rifle types in old maps.
+		// r700 and winchester
+		//
+		"Stock_SpawnOtherRifleTypes"
+		{
+			"onlyoldmaps"		"1"
+			
+			"filter_class"		"weapon_zm_rifle"
+			
+			"replace"		"Rifle"
 		}
 		
 		//"Stock_SpawnOtherPistolTypes"

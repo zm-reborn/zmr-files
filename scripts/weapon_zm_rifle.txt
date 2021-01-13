@@ -3,7 +3,7 @@ WeaponData
 	"printname"				"Rifle"
 	
 	"viewmodel"				"models/weapons/c_rifle_zm.mdl"
-	"worldmodel"			"models/weapons/rifle_zm_3rd.mdl"
+	"worldmodel"			"models/weapons/w_rifle_zm.mdl"
 	
 	"anim_prefix"			"rifle"
 	

@@ -3,7 +3,7 @@ WeaponData
 	"printname"				"Shotgun"
 	
 	"viewmodel"				"models/weapons/c_shotgun_new.mdl"
-	"worldmodel"			"models/weapons/w_shotgun_zm.mdl"
+	"worldmodel"			"models/weapons/w_shotty2_zmr.mdl"
 	
 	"anim_prefix"			"shotgun"
 	

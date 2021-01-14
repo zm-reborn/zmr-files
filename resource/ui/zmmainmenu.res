@@ -35,6 +35,7 @@
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
 		"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
+		"auto_wide_tocontents"		"1"
 		
 		"onlyingame"		"1"
 	}
@@ -59,6 +60,7 @@
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
 		"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
+		"auto_wide_tocontents"		"1"
 		
 		"onlyingame"		"1"
 	}
@@ -82,7 +84,10 @@
 		"default"		"1"
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
+		"auto_wide_tocontents"		"1"
 		
+		"layout_horizontal"		"1"
+		"horizontal_margin"		"8"
 		"imagematerial"		"zmr_mainmenu/menuicon_play"
 		"imagealign"		"0"
 		"subbuttons"
@@ -93,6 +98,7 @@
 				"allcaps"		"1"
 				"labelText"		"#GameUI_CreateServer"
 				"command"		"OpenCreateMultiplayerGameDialog"
+				"font"		"ZMMainMenuSubButton"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
 				"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
@@ -102,6 +108,7 @@
 				"fieldName"		"PlayOnline"
 				"allcaps"		"1"
 				"labelText"		"#GameUI_GameMenu_FindServers"
+				"font"		"ZMMainMenuSubButton"
 				"command"		"OpenServerBrowser"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
@@ -113,6 +120,7 @@
 				"allcaps"		"1"
 				"labelText"		"PLAY TUTORIAL"
 				"command"		""
+				"font"		"ZMMainMenuSubButton"
 				"enabled"		"0"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
@@ -139,7 +147,10 @@
 		"font"		"ZMMainMenuButton"
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
+		"auto_wide_tocontents"		"1"
 		
+		"layout_horizontal"		"1"
+		"horizontal_margin"		"8"
 		"imagematerial"		"zmr_mainmenu/menuicon_gear"
 		"subbuttons"
 		{
@@ -149,6 +160,7 @@
 				"allcaps"		"1"
 				"labelText"		"Mod Options"
 				"command"		"engine OpenZMOptions"
+				"font"		"ZMMainMenuSubButton"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
 				"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
@@ -159,6 +171,7 @@
 				"allcaps"		"1"
 				"labelText"		"#GameUI_Options"
 				"command"		"engine OpenZMGameUIOptions"
+				"font"		"ZMMainMenuSubButton"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
 				"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
@@ -185,7 +198,10 @@
 		"font"		"ZMMainMenuButton"
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
+		"auto_wide_tocontents"		"1"
 		
+		"layout_horizontal"		"1"
+		"horizontal_margin"		"8"
 		"onlyingame"		"1"
 		"subbuttons"
 		{
@@ -195,6 +211,7 @@
 				"allcaps"		"1"
 				"labelText"		"Restart Round"
 				"command"		"engine callvote ZMVoteRoundRestart"
+				"font"		"ZMMainMenuSubButton"
 				
 				"sound_armed"		"zmr_mainmenu/subbuttonrollover.wav"
 				"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
@@ -223,7 +240,10 @@
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
 		"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
+		"auto_wide_tocontents"		"1"
 		
+		"layout_horizontal"		"1"
+		"horizontal_margin"		"8"
 		"imagematerial"		"zmr_mainmenu/menuicon_credits"
 		"onlynotingame"		"1"
 	}
@@ -248,7 +268,9 @@
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
 		"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
+		"auto_wide_tocontents"		"1"
 		
+		"layout_horizontal"		"1"
 		"imagematerial"		"zmr_mainmenu/menuicon_exit"
 		"onlynotingame"		"1"
 	}
@@ -264,7 +286,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#GameUI_GameMenu_Quit"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"
@@ -273,9 +295,11 @@
 		"allcaps"		"1"
 		"sound_armed"		"zmr_mainmenu/buttonrollover.wav"
 		"sound_released"		"zmr_mainmenu/buttonclickrelease.wav"
+		"auto_wide_tocontents"		"1"
 		
 		"imagematerial"		"zmr_mainmenu/menuicon_exit"
 		"onlyingame"		"1"
+		"image_margin"		"6"
 	}
 	"ImagePanel"
 	{

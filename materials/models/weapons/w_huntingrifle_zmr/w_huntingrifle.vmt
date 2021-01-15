@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture 	"models/weapons/w_huntingrifle_zmr/huntingrifle_bc"
+	$bumpmap		"models/weapons/w_huntingrifle_zmr/huntingrifle_n"
+	$mraotexture	"models/weapons/w_huntingrifle_zmr/huntingrifle_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

@@ -3,7 +3,7 @@ WeaponData
 	"printname"				"R700 Sniper"
 	
 	"viewmodel"				"models/weapons/c_r700_zm.mdl"
-	"worldmodel"			"models/weapons/w_rifle_zm.mdl"
+	"worldmodel"			"models/weapons/w_huntingrifle.mdl"
 	
 	"anim_prefix"			"rifle"
 	
@@ -58,17 +58,17 @@ WeaponData
 		"weapon"
 		{
 			"font"			"WeaponIcons"
-			"character"		"f"
+			"character"		"%"
 		}
 		"weapon_s"
 		{	
 			"font"			"WeaponIconsSelected"
-			"character"		"f"
+			"character"		"%"
 		}
 		"ammo"
 		{
 			"font"			"WeaponIcons"
-			"character"		"q"
+			"character"		"w"
 		}
 	}
 }

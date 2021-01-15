@@ -3,7 +3,7 @@ WeaponData
 	"printname"				"Rifle"
 	
 	"viewmodel"				"models/weapons/c_rifle_zm.mdl"
-	"worldmodel"			"models/weapons/w_rifle_zm.mdl"
+	"worldmodel"			"models/weapons/w_rifle.mdl"
 	
 	"anim_prefix"			"rifle"
 	
@@ -69,7 +69,7 @@ WeaponData
 		"ammo"
 		{
 			"font"			"WeaponIcons"
-			"character"		"q"
+			"character"		"u"
 		}
 	}
 }

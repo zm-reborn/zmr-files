@@ -3,14 +3,14 @@ WeaponData
 	"printname"				"Shotgun"
 	
 	"viewmodel"				"models/weapons/c_shotgun_new.mdl"
-	"worldmodel"			"models/weapons/w_shotty2_zmr.mdl"
+	"worldmodel"			"models/weapons/w_shotty.mdl"
 	
 	"anim_prefix"			"shotgun"
 	
 	
 	"PrimaryAttack"
 	{
-		"firerate"			"0.55"
+		"firerate"			"0.35"
 		"damage"			"6"
 		"range"				"500"
 		"bulletspershot"	"7"

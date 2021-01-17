@@ -3,7 +3,7 @@ WeaponData
 	"printname"				"Sledgehammer"
 
 	"viewmodel"				"models/weapons/c_sledgehammer_zm.mdl"
-	"worldmodel"			"models/weapons/sledgehammer3rd_zm.mdl"
+	"worldmodel"			"models/weapons/w_sledham.mdl"
 	
 	"anim_prefix"			"sledge"
 	

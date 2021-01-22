@@ -2266,6 +2266,7 @@
 	input ToggleSprite(void) : "Toggle the sprite between hidden and shown."
 ]
 
+@PointClass base(env_sprite) sprite() = env_sprite_clientside : "An entity that controls the drawing of a sprite in the world." []
 
 @PointClass base(Targetname, Angles) iconsprite("editor/env_wind.vmt") = env_wind : 
 	"An entity to control wind in the map. Partially functional."

@@ -76,7 +76,8 @@
 			game+mod			sourcetest/sourcetest_pak.vpk
 			
 			// Our VPK files
-			game				|gameinfo_path|assets_css.vpk
+			game				|gameinfo_path|base_assets.vpk
+			game				|gameinfo_path|psycho_assets.vpk
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.

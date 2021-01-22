@@ -5,6 +5,8 @@ WeaponData
 	"viewmodel"				"models/weapons/v_irifle.mdl"
 	"worldmodel"			"models/weapons/w_irifle.mdl"
 	
+	"player_anims"			"rifle"
+	
 	PrimaryAttack
 	{
 		"firerate"			"0.12"

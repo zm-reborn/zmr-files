@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_fists_zm.mdl"
 	"worldmodel"			"models/weapons/w_null.mdl"
 	
-	"anim_prefix"			"fists"
+	"player_anims"			"fists"
 	
 	
 	"PrimaryAttack"

@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_sporting.mdl"
 	"worldmodel"			"models/weapons/w_sporting.mdl"
 	
-	"anim_prefix"			"rifle"
+	"player_anims"			"sporting"
 	
 	
 	"PrimaryAttack"

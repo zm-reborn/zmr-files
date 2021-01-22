@@ -7,8 +7,12 @@ WeaponData
 	"viewmodel"				"models/weapons/c_fists_zm.mdl"
 	"worldmodel"			"models/weapons/w_null.mdl"
 	
-	// Not used?
-	"anim_prefix"			"357"
+	// These are the animations that the player will use when having
+	// this weapon is equipped.
+	// List of valid values:
+	// rifle, sniper, pistol, revolver, mac10, smg, molotov, throwable, fists, crowbar, sledge, shotgun, sporting
+	// Most of them are duplicates.
+	"player_anims"			"revolver"
 	
 	
 	// Primary attack

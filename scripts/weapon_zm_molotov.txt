@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_molotov_zm.mdl"
 	"worldmodel"			"models/weapons/molotov3rd_zm.mdl"
 	
-	"anim_prefix"			"Grenade"
+	"player_anims"			"molotov"
 	
 	
 	"PrimaryAttack"

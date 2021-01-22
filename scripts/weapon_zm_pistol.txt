@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_pistol_new.mdl"
 	"worldmodel"			"models/weapons/w_pistol_zm.mdl"
 	
-	"anim_prefix"			"pistol"
+	"player_anims"			"pistol"
 	
 	
 	"PrimaryAttack"

@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_revolver_zm.mdl"
 	"worldmodel"			"models/weapons/w_357.mdl"
 	
-	"anim_prefix"			"pistol"
+	"player_anims"			"revolver"
 	
 	
 	"PrimaryAttack"

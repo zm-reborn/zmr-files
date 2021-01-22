@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_sledgehammer_zm.mdl"
 	"worldmodel"			"models/weapons/w_sledham.mdl"
 	
-	"anim_prefix"			"sledge"
+	"player_anims"			"sledge"
 	
 	
 	"PrimaryAttack"

@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_improvised_zm.mdl"
 	"worldmodel"			"models/weapons/w_crowbar.mdl"
 	
-	"anim_prefix"			"crowbar"
+	"player_anims"			"crowbar"
 	
 	
 	"PrimaryAttack"

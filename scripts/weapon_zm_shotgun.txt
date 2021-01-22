@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_shotgun_new.mdl"
 	"worldmodel"			"models/weapons/w_shotty.mdl"
 	
-	"anim_prefix"			"shotgun"
+	"player_anims"			"shotgun"
 	
 	
 	"PrimaryAttack"

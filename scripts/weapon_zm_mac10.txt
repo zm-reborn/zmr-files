@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/c_mac10_new.mdl"
 	"worldmodel"			"models/weapons/smg_zm_3rd.mdl"
 	
-	"anim_prefix"			"smg2"
+	"player_anims"			"mac10"
 	
 	
 	"PrimaryAttack"

@@ -16,6 +16,8 @@ cfg/pet.txt
 cfg/commedit.txt
 cfg/settings.scr
 
+maps/*.log
+
 resource/zmtips_hudtips_used.txt
 resource/zmtips_loadingscreen_used.txt
 resource/zmcrosshairs.txt

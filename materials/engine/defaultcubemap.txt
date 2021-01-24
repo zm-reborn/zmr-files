@@ -1,0 +1,2 @@
+defaultcubemap.vtf should always be an environment map with 7 black faces.
+This ensures old maps' specular surfaces don't glow like hell in HDR.

@@ -214,6 +214,12 @@
 	input IncChild3TextArg(float) : "Increase child 3 text argument."
 	input IncChild4TextArg(float) : "Increase child 4 text argument."
 	
+	input InValueMainArg(float) : "Set main text argument value."
+	input InValueChild1Arg(float) : "Set child 1 text argument value."
+	input InValueChild2Arg(float) : "Set child 2 text argument value."
+	input InValueChild3Arg(float) : "Set child 3 text argument value."
+	input InValueChild4Arg(float) : "Set child 4 text argument value."
+	
 	input CompleteMain(void) : "Sets main as completed. Use Update to display this to players."
 	input CompleteChild1(void) : "Sets child 1 as completed. Use Update to display this to players."
 	input CompleteChild2(void) : "Sets child 2 as completed. Use Update to display this to players."

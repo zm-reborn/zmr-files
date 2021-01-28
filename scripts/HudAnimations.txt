@@ -201,7 +201,15 @@ event PoisonLoop
 	RunEvent PoisonPulse 0.0
 }
 
-// ZMR Stuff...
+//
+// +------------+
+// |ZMR Stuff...|
+// +------------+
+//
+
+//
+// Health
+//
 event ZMHealthPulse
 {
 	Animate ZMHudHPBar		Blur		"0.4"		Linear		0.0		0.1
@@ -239,6 +247,9 @@ event ZMHealthNormal
 	Animate ZMHudHPBar		HealthColor		"ZMFgColor"			Linear		0.0		0.5
 }
 
+//
+// Weapon clip
+//
 event ZMClipChanged
 {
 	Animate ZMHudAmmo		ClipBlur		"0.6"		Linear		0.0		0.1
@@ -259,6 +270,9 @@ event ZMClipOk
 	Animate ZMHudAmmo		ClipColor		"ZMFgColor"		Linear		0.0		0.15
 }
 
+//
+// Reserve ammo
+//
 event ZMResChanged
 {
 	Animate ZMHudAmmo		ResBlur		"0.6"		Linear		0.0		0.1
@@ -274,15 +288,14 @@ event ZMResCritical
 
 event ZMResOk
 {
-	StopEvent ZMResCritical 0.0
-
 	Animate ZMHudAmmo		ResColor		"ZMFgColor"		Linear		0.0		0.15
 }
 
+//
+// Vote
+//
 event ZMVoteStart
 {
-	StopEvent ZMVoteEnd 0.0
-	
 	Animate ZMHudVote		VoteColor			"ZMFgColor"		Linear		0.0		0.3
 }
 
@@ -295,8 +308,6 @@ event ZMVoteEnd
 
 event ZMVoteReasonStart
 {
-	StopEvent ZMVoteReasonEnd 0.0
-	
 	Animate ZMHudVote		ReasonColor			"ZMFgColor"		Linear		0.0		0.2
 }
 
@@ -307,10 +318,11 @@ event ZMVoteReasonEnd
 	Animate ZMHudVote		ReasonColor			"0 0 0 0"		Deaccel		0.0		0.2
 }
 
+//
+// Flashlight
+//
 event ZMFlashlightLow
 {
-	StopEvent ZMFlashlightNormal 0.0
-
 	Animate ZMHudFlashlight		FlashlightColor			"ZMFgColorCrit"		Linear		0.0		0.2
 }
 
@@ -330,34 +342,39 @@ event ZMFlashlightFadeOut
 
 event ZMFlashlightFadeIn
 {
-	StopEvent ZMFlashlightFadeOut 0.0
-	
 	Animate ZMHudFlashlight		FlashlightAlpha			"255"		Linear		0.0		0.2
 }
 
+
+//
+// Round start/end black bars
+//
 event ZMBarsShow
 {
-	StopEvent ZMBarsHide 0.0
+	Animate ZMHudBars		BarAlpha			"255"		Deaccel		0.0		0.5
 	
-	Animate ZMHudBars		BarAlpha			"255"		Linear		0.0		0.5
-	
-	Animate ZMHudBars		TopBarY				"85"		Linear		0.0		0.5
-	Animate ZMHudBars		BottomBarY			"395"		Deaccel		0.0		0.5
+	// Proportional to 480
+	Animate ZMHudBars		TopBarY				"100"		Deaccel		0.0		0.5
+	Animate ZMHudBars		BottomBarY			"380"		Deaccel		0.0		0.5
 }
 
 event ZMBarsHide
 {
 	StopEvent ZMBarsShow 0.0
 	
-	Animate ZMHudBars		BarAlpha			"0"		Deaccel		0.0		0.5
+	Animate ZMHudBars		BarAlpha			"0"		Accel		0.0		0.5
 	
-	Animate ZMHudBars		TopBarY				"0"		Deaccel		0.0		0.5
-	Animate ZMHudBars		BottomBarY			"480"	Linear		0.0		0.5
+	Animate ZMHudBars		TopBarY				"0"		Accel		0.0		0.5
+	Animate ZMHudBars		BottomBarY			"480"	Accel		0.0		0.5
 }
 
+//
+// Round start/end center text
+//
 event ZMCenterTextFadeOut
 {
 	StopEvent ZMCenterTextFadeIn 0.0
+	StopEvent ZMCenterTextFadeInSmall 0.0
 	
 	Animate ZMHudCenterText		BigAlpha			"0"				Deaccel		0.0		0.5
 	Animate ZMHudCenterText		SmallAlpha			"0"				Deaccel		0.0		0.5
@@ -365,22 +382,19 @@ event ZMCenterTextFadeOut
 
 event ZMCenterTextFadeIn
 {
-	StopEvent ZMCenterTextFadeOut 0.0
-	
 	Animate ZMHudCenterText		BigAlpha			"255"		Linear		0.0		0.5
 }
 
 event ZMCenterTextFadeInSmall
 {
-	StopEvent ZMCenterTextFadeOut 0.0
-	
 	Animate ZMHudCenterText		SmallAlpha			"255"		Linear		0.0		0.5
 }
 
+//
+// Tool tip
+//
 event ZMTooltipShow
 {
-	StopEvent ZMTooltipHide 0.0
-	
 	Animate ZMHudTooltip		TooltipAlphaMult			"1"		Linear		0.0		0.4
 }
 

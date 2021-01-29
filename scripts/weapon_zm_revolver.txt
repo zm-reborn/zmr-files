@@ -2,7 +2,7 @@ WeaponData
 {
 	"printname"				"Revolver"
 	
-	"viewmodel"				"models/weapons/c_revolver_zm.mdl"
+	"viewmodel"				"models/weapons/c_revolver_new.mdl"
 	"worldmodel"			"models/weapons/w_357.mdl"
 	
 	"player_anims"			"revolver"

@@ -92,13 +92,13 @@
 // Weapons.
 //
 // -----------------------
-@PointClass base(Weapon) studio("models/Weapons/w_shotgun_zm.mdl") = weapon_zm_shotgun : "Shotgun" []
-@PointClass base(Weapon) studio("models/weapons/rifle_zm_3rd.mdl") = weapon_zm_rifle : "Rifle" []
+@PointClass base(Weapon) studio("models/weapons/w_shotty.mdl") = weapon_zm_shotgun : "Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_rifle.mdl") = weapon_zm_rifle : "Rifle" []
 @PointClass base(Weapon) studio("models/weapons/smg_zm_3rd.mdl") = weapon_zm_mac10 : "Mac 10" []
 @PointClass base(Weapon) studio("models/weapons/w_357.mdl") = weapon_zm_revolver : "Revolver" []
-@PointClass base(Weapon) studio("models/weapons/pistol3rd_zm.mdl") = weapon_zm_pistol : "Pistol" []
+@PointClass base(Weapon) studio("models/weapons/w_pistol_zm.mdl") = weapon_zm_pistol : "Pistol" []
 //@PointClass base(Weapon) studio("models/weapons/flashlight3rd_zm.mdl") = weapon_zm_flashlight : "Flashlight" []
 @PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_zm_improvised : "Improvised Weapon" []
-@PointClass base(Weapon) studio("models/weapons/sledgehammer3rd_zm.mdl") = weapon_zm_sledge : "Sledgehammer" []
+@PointClass base(Weapon) studio("models/weapons/w_sledham.mdl") = weapon_zm_sledge : "Sledgehammer" []
 @PointClass base(Weapon) studio("models/weapons/molotov3rd_zm.mdl") = weapon_zm_molotov : "Molotov Cocktail" []
 @PointClass base(Weapon) studio("models/weapons/w_sporting.mdl") = weapon_zm_shotgun_sporting : "OverUnder Shotgun" []

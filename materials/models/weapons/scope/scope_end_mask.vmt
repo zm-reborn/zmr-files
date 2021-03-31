@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture models\weapons\scope\scope_end_mask
+	$selfillum 1
+	$translucent 1
+}

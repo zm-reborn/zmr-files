@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture 	"models/weapons/w_pipe_zmr/nookya_bc"
+	$bumpmap		"models/weapons/w_pipe_zmr/nookya_n"
+	$mraotexture	"models/weapons/w_pipe_zmr/nookya_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

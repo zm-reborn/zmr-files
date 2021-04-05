@@ -1,0 +1,8 @@
+"Refract"
+{
+	$model	1
+	$basetexture	_rt_Scope
+	$refractamount	0.1
+	$dudvmap	models\weapons\scope\scope_dudv
+	$normalmap	models\weapons\scope\scope_normal
+}

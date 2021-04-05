@@ -3,4 +3,5 @@ UnlitGeneric
 	$basetexture models\weapons\scope\reticle
 	$selfillum 1
 	$alphatest 1
+	$model 1
 }

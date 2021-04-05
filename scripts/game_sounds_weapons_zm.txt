@@ -376,3 +376,15 @@
 
 	"wave"			"^weapons/overunder/fire2.wav"
 }
+
+//
+// R700 Sniper
+//
+"Weapon_R700_ZM.Zoom"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.4"
+	"soundlevel"	"SNDLVL_NORM"
+	
+	"wave"			"weapons/r700/hunting_rifle_zoom.wav"
+}

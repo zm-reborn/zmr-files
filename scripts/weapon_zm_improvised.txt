@@ -2,7 +2,7 @@ WeaponData
 {
 	"printname"				"Crowbar"
 
-	"viewmodel"				"models/weapons/c_improvised_zm.mdl"
+	"viewmodel"				"models/weapons/c_crowbar_zmr.mdl"
 	"worldmodel"			"models/weapons/w_crowbar.mdl"
 	
 	"player_anims"			"crowbar"

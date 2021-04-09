@@ -147,7 +147,8 @@ event HudTakeDamageRadiation
 event HudPlayerDeath
 {
 	Animate HudDamageIndicator DmgFullscreenColor	"255 0 0 8"		Deaccel 0.1 0.2
-	Animate HudDamageIndicator DmgFullscreenColor	"255 0 0 48"		Deaccel 0.3 4.0
+	Animate HudDamageIndicator DmgFullscreenColor	"255 0 0 48"		Deaccel 0.3 3.0
+	Animate HudDamageIndicator DmgFullscreenColor	"255 0 0 0"		Deaccel 3.0 4.0
 }
 
 event HintMessageShow

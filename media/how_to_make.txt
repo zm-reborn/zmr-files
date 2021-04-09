@@ -1,0 +1,2 @@
+- Install RadTools (Requires QuickTime to be installed. Not the player, just the components are enough.)
+- Input file has to be uncompressed avi(?). Converting mp4 caused the output to be completely white screen.

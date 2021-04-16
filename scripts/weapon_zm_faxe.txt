@@ -1,9 +1,9 @@
 WeaponData
 {
-	"printname"				"Sledgehammer"
+	"printname"				"Fire Axe"
 
-	"viewmodel"				"models/weapons/c_sledham_zmr.mdl"
-	"worldmodel"			"models/weapons/w_sledham.mdl"
+	"viewmodel"				"models/weapons/c_faxe_zmr.mdl"
+	"worldmodel"			"models/weapons/w_faxe.mdl"
 	
 	"player_anims"			"sledge"
 	

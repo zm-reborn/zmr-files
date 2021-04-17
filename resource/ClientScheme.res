@@ -873,7 +873,7 @@ Scheme
 			"1"
 			{
 				"name"		"Built Titling Rg"
-				"tall"		"48"
+				"tall"		"24"
 				"weight"	"100"
 				"antialias" "1"
 				"additive"	"0"
@@ -885,7 +885,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana Bold"
-				"tall"		"16"
+				"tall"		"12"
 				"antialias" "1"
 			}
 		}

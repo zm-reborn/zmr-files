@@ -186,7 +186,6 @@
 	]
 	
 	input Reset(void) : "Resets all objectives."
-	input Update(void) : "Update number/complete status to all players."
 	input Display(void) : "Displays text for all players."
 	input DisplayActivator(void) : "Displays text to activator."
 	
@@ -196,11 +195,15 @@
 	input SetChild3Text(string) : "Set child 3 objective text."
 	input SetChild4Text(string) : "Set child 4 objective text."
 	
-	input UpdateMainText(string) : "Update main objective status to all players. If non-empty, also set text."
-	input UpdateChild1Text(string) : "Update child 1 objective status to all players. If non-empty, also set text."
-	input UpdateChild2Text(string) : "Update child 2 objective status to all players. If non-empty, also set text."
-	input UpdateChild3Text(string) : "Update child 3 objective status to all players. If non-empty, also set text."
-	input UpdateChild4Text(string) : "Update child 4 objective status to all players. If non-empty, also set text."
+	
+	// DEPRECATED. NO NEED TO USE THESE.
+	// The objectives are automatically updated.
+	//input Update(void) : "Update number/complete status to all players."
+	//input UpdateMainText(string) : "Update main objective status to all players. If non-empty, also set text."
+	//input UpdateChild1Text(string) : "Update child 1 objective status to all players. If non-empty, also set text."
+	//input UpdateChild2Text(string) : "Update child 2 objective status to all players. If non-empty, also set text."
+	//input UpdateChild3Text(string) : "Update child 3 objective status to all players. If non-empty, also set text."
+	//input UpdateChild4Text(string) : "Update child 4 objective status to all players. If non-empty, also set text."
 	
 	input SetMainTextArg(string) : "Set main text argument."
 	input SetChild1TextArg(string) : "Set child 1 text argument."

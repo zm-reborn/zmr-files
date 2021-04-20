@@ -48,6 +48,20 @@
 			
 			"replace"		"Rifle"
 		}
+
+		//
+		// Spawn some fireaxes among sledgehammers in old maps.
+		//
+		"Stock_SpawnOtherRifleTypes"
+		{
+			"onlyoldmaps"		"1"
+
+			"replace_frac"			"0.5"
+			
+			"filter_class"		"weapon_zm_sledge"
+			
+			"replace"		"weapon_zm_fireaxe"
+		}
 		
 		//"Stock_SpawnOtherPistolTypes"
 		//{

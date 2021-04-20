@@ -1,0 +1,68 @@
+WeaponData
+{
+	"printname"				"Fire Axe"
+
+	"viewmodel"				"models/weapons/c_faxe_zmr.mdl"
+	"worldmodel"			"models/weapons/w_faxe.mdl"
+	
+	"player_anims"			"sledge"
+	
+	
+	"PrimaryAttack"
+	{
+		"firerate"			"2.6"
+		"damage"			"50"
+		"range"				"60"
+		
+		"viewpunch_min"		"5 -2 0"
+		"viewpunch_max"		"10 -1 0"
+		
+		// This is the random multiplier applied to damage.
+		"sledge_min_mult"	"0.55"
+		"sledge_max_mult"	"1.1"
+	}
+	
+	"SecondaryAttack"
+	{
+		"firerate"			"3.5"
+		"damage"			"50"
+		"range"				"60"
+		
+		"viewpunch_min"		"5 -2 0"
+		"viewpunch_max"		"10 -1 0"
+		
+		// This is the random multiplier applied to damage.
+		"sledge_min_mult"	"0.99"
+		"sledge_max_mult"	"2.5"
+	}
+	
+	
+	"crosshair"				"Melee"
+	
+	"bucket"				"2"
+	"bucket_position"		"0"
+	"importance"			"2"
+
+	"clip_size"				"-1"
+
+	
+	SoundData
+	{
+		"single_shot"		"Weapon_Sledge_ZM.Primary"
+		"special1"			"Weapon_Sledge_ZM.Secondary"
+	}
+
+	TextureData
+	{
+		"weapon"
+		{
+			"font"			"WeaponIcons"
+			"character"		"F"
+		}
+		"weapon_s"
+		{	
+			"font"			"WeaponIconsSelected"
+			"character"		"F"
+		}
+	}
+}

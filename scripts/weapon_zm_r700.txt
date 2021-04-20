@@ -14,8 +14,8 @@ WeaponData
 		"damage"			"100"
 		"range"				"3000"
 		
-		// 6 degrees
-		"spread"			"6 6 0"
+		// 45 degrees
+		"spread"			"45 45 0"
 		
 		"viewpunch_min"		"-10 -2 0"
 		"viewpunch_max"		"-6 2 0"
@@ -24,7 +24,7 @@ WeaponData
 	
 	"crosshair"				"Rifle"
 	
-	"accuracy_increase"		"1.7"
+	"accuracy_increase"		"1.4"
 	"accuracy_decrease"		"7.1"
 	
 	"penetration_max"		"4"	

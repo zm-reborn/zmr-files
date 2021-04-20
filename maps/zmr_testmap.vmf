@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8357"
-	"mapversion" "214"
+	"mapversion" "215"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "214"
+	"mapversion" "215"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13978,8 +13978,6 @@ entity
 	"id" "487"
 	"classname" "weapon_zm_pistol"
 	"angles" "0 0 0"
-	"clip1override" "-1"
-	"dmgoverride" "-1"
 	"spawnflags" "0"
 	"targetname" "pistol"
 	"origin" "-96 928 80"
@@ -14502,7 +14500,6 @@ entity
 {
 	"id" "1410"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "2"
 	"origin" "-192 -656 8"
 	editor
@@ -14517,7 +14514,6 @@ entity
 {
 	"id" "1457"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "4"
 	"origin" "-192 -896 8"
 	editor
@@ -14532,7 +14528,6 @@ entity
 {
 	"id" "1465"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "6"
 	"origin" "0 -448 8"
 	editor
@@ -14547,7 +14542,6 @@ entity
 {
 	"id" "1469"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "7"
 	"origin" "0 -640 8"
 	editor
@@ -14562,7 +14556,6 @@ entity
 {
 	"id" "1471"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "8"
 	"origin" "-384 -640 8"
 	editor
@@ -14577,7 +14570,6 @@ entity
 {
 	"id" "1473"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "9"
 	"origin" "-384 -448 8"
 	editor
@@ -14592,7 +14584,6 @@ entity
 {
 	"id" "1477"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "11"
 	"origin" "-192 -544 8"
 	editor
@@ -14607,7 +14598,6 @@ entity
 {
 	"id" "1483"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "13"
 	"origin" "-192 -768 8"
 	editor
@@ -14622,7 +14612,6 @@ entity
 {
 	"id" "1599"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "14"
 	"origin" "-1088 0 8"
 	editor
@@ -14637,7 +14626,6 @@ entity
 {
 	"id" "1601"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "15"
 	"origin" "-1408 0 8"
 	editor
@@ -14652,7 +14640,6 @@ entity
 {
 	"id" "1603"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "16"
 	"origin" "-1408 -208 8"
 	editor
@@ -14667,7 +14654,6 @@ entity
 {
 	"id" "1605"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "17"
 	"origin" "-1408 256 8"
 	editor
@@ -14682,7 +14668,6 @@ entity
 {
 	"id" "1607"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "18"
 	"origin" "-1280 -320 8"
 	editor
@@ -14697,7 +14682,6 @@ entity
 {
 	"id" "1609"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "19"
 	"origin" "-1280 -512 8"
 	editor
@@ -14712,7 +14696,6 @@ entity
 {
 	"id" "1611"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "20"
 	"origin" "-1424 -544 8"
 	editor
@@ -14727,7 +14710,6 @@ entity
 {
 	"id" "1615"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "21"
 	"origin" "-1664 -544 8"
 	editor
@@ -14742,7 +14724,6 @@ entity
 {
 	"id" "1617"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "22"
 	"origin" "-1248 0 8"
 	editor
@@ -14757,7 +14738,6 @@ entity
 {
 	"id" "1619"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "23"
 	"origin" "-928 0 8"
 	editor
@@ -14772,7 +14752,6 @@ entity
 {
 	"id" "1621"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "24"
 	"origin" "-1536 128 8"
 	editor
@@ -14787,7 +14766,6 @@ entity
 {
 	"id" "1623"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "25"
 	"origin" "-1280 160 8"
 	editor
@@ -14802,7 +14780,6 @@ entity
 {
 	"id" "1625"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "26"
 	"origin" "-1568 -144 8"
 	editor
@@ -14817,7 +14794,6 @@ entity
 {
 	"id" "1627"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "27"
 	"origin" "-1248 -160 8"
 	editor
@@ -15234,7 +15210,6 @@ entity
 	"id" "2188"
 	"classname" "npc_zombie"
 	"angles" "0 180 0"
-	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2564"
@@ -15300,7 +15275,6 @@ entity
 	"id" "2264"
 	"classname" "npc_fastzombie"
 	"angles" "0 180 0"
-	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2564"
@@ -15391,21 +15365,14 @@ entity
 	"id" "2313"
 	"classname" "npc_poisonzombie"
 	"angles" "0 180 0"
-	"crabcount" "3"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
 	"spawnflags" "2048"
 	"targetname" "t_hulk"
-	"wakeradius" "0"
-	"wakesquad" "0"
 	"origin" "960 416 192"
 	editor
 	{
@@ -15422,18 +15389,12 @@ entity
 	"angles" "0 180 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
 	"spawnflags" "2048"
 	"targetname" "t_drifter"
-	"wakeradius" "0"
-	"wakesquad" "0"
 	"origin" "960 352 192"
 	editor
 	{
@@ -15450,18 +15411,12 @@ entity
 	"angles" "0 180 0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sleepstate" "0"
 	"spawnflags" "2048"
 	"targetname" "t_immolator"
-	"wakeradius" "0"
-	"wakesquad" "0"
 	"origin" "960 304 192"
 	editor
 	{
@@ -16879,7 +16834,6 @@ entity
 {
 	"id" "5690"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "28"
 	"origin" "-448 -768 8"
 	editor
@@ -16894,7 +16848,6 @@ entity
 {
 	"id" "5718"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "29"
 	"origin" "-416 -864 8"
 	editor
@@ -16909,7 +16862,6 @@ entity
 {
 	"id" "5720"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "30"
 	"origin" "-336 -864 8"
 	editor
@@ -16924,7 +16876,6 @@ entity
 {
 	"id" "5722"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "31"
 	"origin" "-48 -864 8"
 	editor
@@ -16939,7 +16890,6 @@ entity
 {
 	"id" "5724"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "32"
 	"origin" "32 -864 8"
 	editor
@@ -16954,7 +16904,6 @@ entity
 {
 	"id" "5726"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "33"
 	"origin" "64 -768 8"
 	editor
@@ -16969,7 +16918,6 @@ entity
 {
 	"id" "5875"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "34"
 	"origin" "896 0 8"
 	editor
@@ -16984,7 +16932,6 @@ entity
 {
 	"id" "5883"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "35"
 	"origin" "896 128 8"
 	editor
@@ -16999,7 +16946,6 @@ entity
 {
 	"id" "5885"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "36"
 	"origin" "896 -128 8"
 	editor
@@ -17014,7 +16960,6 @@ entity
 {
 	"id" "5889"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "37"
 	"origin" "768 0 8"
 	editor
@@ -17029,7 +16974,6 @@ entity
 {
 	"id" "5891"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "38"
 	"origin" "320 0 8"
 	editor
@@ -17044,7 +16988,6 @@ entity
 {
 	"id" "5895"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "39"
 	"origin" "512 0 8"
 	editor
@@ -17059,7 +17002,6 @@ entity
 {
 	"id" "5897"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "40"
 	"origin" "512 -256 8"
 	editor
@@ -17074,7 +17016,6 @@ entity
 {
 	"id" "5899"
 	"classname" "info_node"
-	"angles" "0 0 0"
 	"nodeid" "41"
 	"origin" "512 256 8"
 	editor
@@ -17114,12 +17055,8 @@ entity
 	"id" "6230"
 	"classname" "weapon_zm_mac10"
 	"angles" "0 0 0"
-	"clip1override" "20"
-	"dmgoverride" "100"
 	"spawnflags" "2"
 	"targetname" "templatemac10"
-	"v_modeloverride" "models/weapons/v_irifle.mdl"
-	"w_modeloverride" "models/weapons/w_irifle.mdl"
 	"origin" "-928 -576 30"
 	editor
 	{
@@ -17381,8 +17318,6 @@ entity
 	"id" "6777"
 	"classname" "weapon_zm_improvised"
 	"angles" "0 0 0"
-	"clip1override" "-1"
-	"dmgoverride" "200"
 	"spawnflags" "2"
 	"targetname" "templatecrowbar"
 	"origin" "-928 -640 30"
@@ -17486,7 +17421,6 @@ entity
 {
 	"id" "7142"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "352 832 0"
 	"BasisU" "-4.37114e-008 -1 0"
@@ -23758,7 +23692,6 @@ entity
 	connections
 	{
 		"OutValue" "objectives_human,InValueChild2Arg,,0,-1"
-		"OutValue" "objectives_human,Update,,0.01,-1"
 	}
 	"origin" "-112 0 16"
 	editor
@@ -23964,6 +23897,77 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "16415"
+	"classname" "weapon_zm_r700"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"origin" "-944 -480 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16431"
+	"classname" "item_ammo_357"
+	"angles" "0 0 0"
+	"origin" "-896 -480 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16433"
+	"classname" "item_ammo_357"
+	"angles" "0 0 0"
+	"origin" "-880 -480 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16443"
+	"classname" "item_box_buckshot"
+	"angles" "0 0 0"
+	"origin" "-896 -448 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16445"
+	"classname" "item_box_buckshot"
+	"angles" "0 0 0"
+	"origin" "-880 -448 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

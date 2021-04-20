@@ -102,3 +102,4 @@
 @PointClass base(Weapon) studio("models/weapons/w_sledham.mdl") = weapon_zm_sledge : "Sledgehammer" []
 @PointClass base(Weapon) studio("models/weapons/molotov3rd_zm.mdl") = weapon_zm_molotov : "Molotov Cocktail" []
 @PointClass base(Weapon) studio("models/weapons/w_sporting.mdl") = weapon_zm_shotgun_sporting : "OverUnder Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_huntingrifle.mdl") = weapon_zm_r700 : "R700 Sniper" []

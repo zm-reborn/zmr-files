@@ -1,0 +1,9 @@
+PBR
+{
+	$baseTexture	"models/items/crates/sticker_ammogeneric_bc"
+//	$bumpmap		"models/items/crates/sticker_ammopistol_n"
+	$mraotexture	"models/items/crates/sticker_ammogeneric_mrao"
+//	$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+	$translucent	1
+}

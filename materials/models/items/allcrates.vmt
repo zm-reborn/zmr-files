@@ -1,8 +1,0 @@
-PBR
-{
-	$baseTexture	"models/items/allcrates_bc_2k"
-	$bumpmap		"models/items/allcrates_n"
-	$mraotexture	"models/items/allcrates_mrao"
-//	$emissiontexture		"models/weapons/mixtape/mix25_e"
-	$model			1
-}

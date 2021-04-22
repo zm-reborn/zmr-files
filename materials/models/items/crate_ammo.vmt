@@ -1,0 +1,8 @@
+PBR
+{
+	$baseTexture	"models/items/crates/ammo_bc"
+	$bumpmap		"models/items/crates/ammo_n"
+	$mraotexture	"models/items/crates/ammo_mrao"
+//	$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

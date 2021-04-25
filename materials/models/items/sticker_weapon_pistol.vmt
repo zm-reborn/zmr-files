@@ -1,0 +1,8 @@
+PBR
+{
+	$baseTexture	"models/items/crates/sticker_weapon_pistol_bc"
+	$mraotexture	"models/items/crates/sticker_weapon_shared_mrao"
+//	$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+	$translucent	1
+}

@@ -328,6 +328,14 @@
 
 	"wave"			")weapons/revolver_zm/revolver_reload.wav"
 }
+"Weapon_Revolver_ZM.Prepare"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9, 1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_65dB"
+	"wave"			"weapons/revolver_zm/prepare.wav"
+}
 
 
 //

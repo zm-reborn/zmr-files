@@ -62,6 +62,7 @@ WeaponData
 	{
 		"empty"				"Weapon_pistol_zm.Empty"
 		"single_shot"		"Weapon_Revolver_ZM.Single"
+		"triggerpull"		"Weapon_Revolver_ZM.Prepare"
 	}
 
 	TextureData

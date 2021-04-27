@@ -52,4 +52,6 @@ downloadlists/
 *.csv
 *.ztmp
 
+videoconfig_linux.cfg
+glshaders.cfg
 

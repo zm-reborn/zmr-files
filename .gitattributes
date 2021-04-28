@@ -1,4 +1,4 @@
-resource/zombie_master_reborn_english.txt binary
-resource/zombie_master_reborn_schinese.txt binary
+resource/zmr_english.txt binary
+resource/zmr_schinese.txt binary
 *.vmf binary
 *.vpk filter=lfs diff=lfs merge=lfs -text

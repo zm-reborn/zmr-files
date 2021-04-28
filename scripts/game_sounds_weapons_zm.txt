@@ -411,7 +411,7 @@
 	"pitch"			"98,101"
 	"rndwave"
 	{
-		"wave"				"^weapons/rifle_zm/zm_rifle_fire2.wav"
+		"wave"				"^weapons/r700/zm_sniper_rifle_1.wav"
 	}
 }
 
@@ -431,7 +431,7 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"weapons/r700/bolt_open.wav"
+	"wave"			"weapons/r700/sniper_bolt_open.wav"
 }
 
 "Weapon_R700_ZM.BoltClose"
@@ -440,7 +440,7 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"weapons/r700/bolt_close.wav"
+	"wave"			"weapons/r700/sniper_bolt_close.wav"
 }
 
 "Weapon_R700_ZM.InsertRound"
@@ -449,7 +449,11 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"weapons/rifle_zm/zm_rifle_reload1.wav"
+	"rndwave"
+	{
+		"wave"				"weapons/r700/sniper_load_01.wav"
+		"wave"				"weapons/r700/sniper_load_02.wav"
+	}
 }
 
 "Weapon_R700_ZM.Zoom"

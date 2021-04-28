@@ -22,8 +22,6 @@ resource/zmtips_hudtips_used.txt
 resource/zmtips_loadingscreen_used.txt
 resource/zmcrosshairs.txt
 
-sound/soundcacheversion.txt
-
 stats.txt
 server_blacklist.txt
 serverconfig.vdf

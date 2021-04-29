@@ -28,7 +28,7 @@ WeaponData
 	"accuracy_increase"		"6.7"
 	"accuracy_decrease"		"2.1"
 	
-	"penetration_max"		"4"	
+	"penetration_max"		"2"	
 	
 	
 	"primary_ammo"			"357"

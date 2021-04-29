@@ -14,8 +14,8 @@ WeaponData
 		"damage"			"100"
 		"range"				"3000"
 		
-		// 45 degrees
-		"spread"			"45 45 0"
+		// 90 degrees
+		"spread"			"90 90 0"
 		
 		"viewpunch_min"		"-10 -2 0"
 		"viewpunch_max"		"-6 2 0"

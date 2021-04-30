@@ -22,6 +22,7 @@ WeaponData
 		"viewpunch_max"		"-6 2 0"
 	}
 	
+	//"pumptime"			"-1"
 	
 	"crosshair"				"Rifle"
 	

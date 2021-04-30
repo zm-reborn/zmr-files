@@ -22,6 +22,7 @@ WeaponData
 		"viewpunch_max"		"-5 3.5 0"
 	}
 	
+	"pumptime"				"0.65"
 	
 	"crosshair"				"Shotgun"
 	

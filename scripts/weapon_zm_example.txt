@@ -43,6 +43,9 @@ WeaponData
 		"viewpunch_min"		"1 -2 0"
 		"viewpunch_max"		"2 -1 0"
 	}
+
+	// Shotgun/Winchester/R700 "pump" duration in seconds. Can be set to a negative value to use animation length.
+	"pumptime"			"1"
 	
 	// Crosshair of the weapon. See resource/zmcrosshairs_default.txt for all crosshairs.
 	"crosshair"				"Pistol"

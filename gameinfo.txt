@@ -44,7 +44,7 @@
 
 			// Our VPK files
 			game				|gameinfo_path|base_assets.vpk
-			game				|gameinfo_path|psycho_assets.vpk
+			game				|gameinfo_path|zmr_assets.vpk
 			
 			platform											platform/platform_misc.vpk
 			platform											platform

@@ -1,0 +1,16 @@
+zmr_debunked_b5
+
+1. Fix the generators (re-connect 6 plugs upstairs and down) to restore power to the server room.
+2. Find four GPS radios and plug them into the central computer in the server room.
+3. With power restored and GPS online, launch all three missiles to complete your mission.
+
+TIPS:
+
+- All retinal scanners need two people, one on each side.
+- Some fires can be extinguished if you cut off the fuel source.
+- Other fires can't be stopped, and you may want to crouch to avoid extra damage from smoke inhalation (just like real life!).
+- Silo #3 has an experimental laser that should melt almost anything in its way; including you and your friends.
+- There's a vending machine full of bottled water and they're only $1 each! Stay hydrated!
+- C4 can be used once two rockets have been launched.
+
+mapped by tonystockert

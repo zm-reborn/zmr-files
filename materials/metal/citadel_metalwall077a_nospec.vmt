@@ -1,8 +1,0 @@
-// envmaptint_fix
-"LightmappedGeneric"
-{
-	"$basetexture" "Metal/metalwall077a"
-	"$surfaceprop" "metal"
-	"%keywords" "combine"
-
-}

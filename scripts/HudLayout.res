@@ -476,8 +476,8 @@
 	HudHistoryResource
 	{
 		"fieldName" "HudHistoryResource"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos"	"r252"
 		"ypos"	"40"
 		"wide"	 "248"
@@ -652,14 +652,12 @@
 		"enabled"		"0"
 	}
 	
+	//
 	// ZMR
-	// Just here to stop the warnings.
-	"ZMFrame"
-	{
-		"fieldName"		"ZMFrame"
-	}
+	//
 	
-	"ZMBoxSelect"
+	// Just here to stop the warnings.
+	ZMBoxSelect
 	{
 		"fieldName"		"ZMBoxSelect"
 	}
@@ -667,5 +665,21 @@
 	ZMHudControlPanel
 	{
 		"fieldName"		"ZMHudControlPanel"
+	}
+	
+	CZMHudItemHistory
+	{
+		"fieldName" "CZMHudItemHistory"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"r252"
+		"ypos"	"60"
+		"wide"	 "248"
+		"tall"	 "320"
+
+		"history_gap"	"56"
+		"icon_inset"	"28"
+		"text_inset"	"26"
+		"NumberFont"	"HudNumbersSmall"
 	}
 }

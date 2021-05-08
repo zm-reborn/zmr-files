@@ -10,7 +10,7 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		"firerate"			"1"
+		"firerate"			"0.75"
 		"damage"			"100"
 		"range"				"3000"
 		

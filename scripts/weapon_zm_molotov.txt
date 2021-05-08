@@ -46,10 +46,5 @@ WeaponData
 			"font"		"WeaponIconsSelected"
 			"character"	"k"
 		}
-		"ammo"
-		{
-				"font"		"WeaponIcons"
-				"character"	"k"
-		}
 	}
 }

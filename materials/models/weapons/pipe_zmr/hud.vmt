@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture	"models/weapons/pipe_zmr/lettersnumbers"
+	// $bumpmap		"models/weapons/pipe_zmr/pipe_n"
+	$mraotexture	"models/weapons/pipe_zmr/lightup_mrao"
+	// $emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+	// $translucent 1
+	$alphatest 1
+}

@@ -10,13 +10,17 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		"damage"	"150"
 	}
 	
+	"throw_velocity"		"1200"
+
+	"angvel_min"			"0 0 -500"
+	"angvel_max"			"0 0 -100"
+
 	
 	"crosshair"				"Throwable"
 	
-	"primary_ammo"		"Molotov"
+	"primary_ammo"			"Molotov"
 	
 	"bucket"				"4"
 	"bucket_position"		"0"

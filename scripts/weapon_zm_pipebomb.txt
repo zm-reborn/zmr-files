@@ -1,0 +1,56 @@
+WeaponData
+{
+	"printname"				"Pipebomb"
+
+	"viewmodel"				"models/weapons/c_pipebomb.mdl"
+	"worldmodel"			"models/weapons/w_pipebomb.mdl"
+	
+	"player_anims"			"molotov"
+	
+	
+	"PrimaryAttack"
+	{
+	}
+
+	"projectile_damage"		"160"
+	"projectile_radius"		"200"
+	
+	"throw_velocity"		"500"
+
+	"angvel_min"			"-600 -600 -600"
+	"angvel_max"			"600 600 600"
+	
+	"crosshair"				"Throwable"
+	
+	"primary_ammo"			"Molotov"
+	
+	"bucket"				"4"
+	"bucket_position"		"0"
+	// We should never switch to a pipebomb when running out of ammo.
+	// Even fists are more useful in a pinch.
+	"importance"			"0"
+	
+
+	"clip_size"				"-1"
+	"default_clip"			"1"
+	
+	
+	"reloadonladder"		"0"
+	"attackonladder"		"0"
+	"attackinwater"			"0"
+	
+	
+	TextureData
+	{
+		"weapon"
+		{
+			"font"		"WeaponIcons"
+			"character"	"j"
+		}
+		"weapon_s"
+		{	
+			"font"		"WeaponIconsSelected"
+			"character"	"j"
+		}
+	}
+}

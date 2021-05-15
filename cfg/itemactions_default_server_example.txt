@@ -13,6 +13,7 @@
 //		Pistol
 //		BigPistol
 //		Melee
+//		Throwable
 //    Ammo:
 //		Ammo
 //		RifleAmmo

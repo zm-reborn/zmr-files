@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/pipe_zmr/buttons_bc"
+	$bumpmap		"models/weapons/pipe_zmr/buttons_n"
+	$mraotexture	"models/weapons/pipe_zmr/buttons_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

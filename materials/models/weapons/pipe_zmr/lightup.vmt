@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture	"models/weapons/pipe_zmr/lightup_bc"
+	// $bumpmap		"models/weapons/pipe_zmr/lightup"
+	$mraotexture	"models/weapons/pipe_zmr/lightup_mrao"
+	$emissiontexture		"models/weapons/pipe_zmr/lightup_bc"
+	$model			1
+	$translucent 1
+}

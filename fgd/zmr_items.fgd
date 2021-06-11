@@ -52,7 +52,7 @@
 
 
 
-@PointClass base(BasePropPhysics, Targetname, Angles, DamageFilter, BaseFadeProp) studio("models/items/item_item_crate.mdl") = item_item_crate : "Item Crate"
+@PointClass base(BasePropPhysics, Targetname, Angles, DamageFilter, BaseFadeProp) studio("models/items/crates/crate_wepin.mdl") = item_item_crate : "Item Crate"
 [
 	//CrateType(choices) : "Crate Contains" : 0 =
 	//[

@@ -357,6 +357,14 @@
 		"AR2" : "AR2"
 		"CombineHeavyCannon" : "Combine Heavy Cannon"
 	]
+	
+	bullet(choices) : "Bullets" : 0 = 
+	[
+		0: "None"
+		1: "Pistol"
+		2: "SMG1"
+		3: "AR2"
+	]
 
 	spawnflags(flags) =
 	[

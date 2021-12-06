@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/ar9mm/ar9mm_bc"
+	$bumpmap		"models/weapons/ar9mm/ar9mm_n"
+	$mraotexture	"models/weapons/ar9mm/ar9mm_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

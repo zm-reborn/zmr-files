@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/snubnose_zmr/speed_bc"
+	$bumpmap		"models/weapons/snubnose_zmr/speed_n"
+	$mraotexture	"models/weapons/snubnose_zmr/speed_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

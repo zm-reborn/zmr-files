@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/molotolo/molotolo_bc"
+	$bumpmap		"models/weapons/molotolo/molotolo_n"
+	$mraotexture	"models/weapons/molotolo/molotolo_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

@@ -52,7 +52,7 @@
 		//
 		// Spawn some fireaxes among sledgehammers in old maps.
 		//
-		"Stock_SpawnOtherRifleTypes"
+		"Stock_SpawnOtherBigMelees"
 		{
 			"onlyoldmaps"		"1"
 

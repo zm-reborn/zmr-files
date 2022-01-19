@@ -62,6 +62,20 @@
 			
 			"replace"		"weapon_zm_fireaxe"
 		}
+
+		//
+		// Spawn some AR 9mm's among MAC-10's in old maps.
+		//
+		"Stock_SpawnOtherSMGs"
+		{
+			"onlyoldmaps"		"1"
+
+			"replace_frac"			"0.5"
+			
+			"filter_class"		"weapon_zm_mac10"
+			
+			"replace"		"weapon_zm_ar9mm"
+		}
 		
 		//"Stock_SpawnOtherPistolTypes"
 		//{

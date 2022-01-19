@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	$basetexture	"models/weapons/molotolo/flame"
+	"$translucent" "1"
+
+	$model  1
+
+}

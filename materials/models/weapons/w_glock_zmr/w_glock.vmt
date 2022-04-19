@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture 	"models/weapons/w_glock_zmr/glock_bc"
+	$bumpmap		"models/weapons/w_glock_zmr/glock_n"
+	$mraotexture	"models/weapons/w_glock_zmr/glock_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

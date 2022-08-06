@@ -1,0 +1,70 @@
+WeaponData
+{
+	"printname"				"Glock 17"
+	
+	"viewmodel"				"models/weapons/c_glock17.mdl"
+	"worldmodel"			"models/weapons/w_glock.mdl"
+	
+	"player_anims"			"pistol"
+	
+	
+	"PrimaryAttack"
+	{
+		"firerate"			"0.375"
+		"damage"			"16"
+		"range"				"1500"
+		
+		// 2 degrees
+		"spread"			"2 2 0"
+		
+		"viewpunch_min"		"0.25 -0.6 0"
+		"viewpunch_max"		"0.5 0.6 0"
+	}
+	
+	
+	"crosshair"				"Pistol"
+	
+	"primary_ammo"			"Pistol"
+	
+	
+	"clip_size"				"16"
+	"default_clip"			"0"
+	
+	// Use animation time which is longer.
+	//"reloadtime"			"1.46"
+	
+	
+	"bucket"				"1"
+	"bucket_position"		"0"
+	"importance"			"3"
+	
+	
+	"reloadonladder"		"0"
+	
+	
+	SoundData
+	{
+		"empty"				"Weapon_Pistol_ZM.Empty"
+		"single_shot"		"Weapon_Pistol_ZM.Single"
+	}
+
+	
+	TextureData
+	{
+		"weapon"
+		{
+			"font"			"WeaponIcons"
+			"character"		"d"
+		}
+		"weapon_s"
+		{	
+			"font"			"WeaponIconsSelected"
+			"character"		"d"
+		}
+		"ammo"
+		{
+			"font"			"WeaponIcons"
+			"character"		"p"
+		}
+	}
+}

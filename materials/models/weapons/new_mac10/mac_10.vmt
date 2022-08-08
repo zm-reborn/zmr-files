@@ -1,7 +1,7 @@
 PBR
 {
-	$basetexture "models/weapons/new_mac10/mac_10_bc"
-	$bumpmap "models/weapons/new_mac10/mac_10_normal"
-	$mraotexture	"models/weapons/new_mac10/mac_10_mrao"
+	$basetexture "models/weapons/new_mac10/mac_10_strap_bc"
+	$bumpmap "models/weapons/new_mac10/mac_10_strap_n"
+	$mraotexture	"models/weapons/new_mac10/mac_10_strap_mrao"
 	$model 1
 }

@@ -452,14 +452,14 @@
 	"wave"			"weapons/r700/sniper_cycle_slow.wav"
 }
 
-//"Weapon_R700_ZM.Reload2"
-//{
-//	"channel"		"CHAN_ITEM"
-//	"volume"		"0.7"
-//	"soundlevel"	"SNDLVL_NORM"
-//
-//	"wave"			"weapons/r700/sniper_cycle_fast.wav"
-//}
+"Weapon_R700_ZM.Reload2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/r700/sniper_cycle_fast.wav"
+}
 
 "Weapon_R700_ZM.InsertRound"
 {

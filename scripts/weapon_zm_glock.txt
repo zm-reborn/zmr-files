@@ -10,15 +10,15 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		"firerate"			"0.375"
-		"damage"			"16"
+		"firerate"			"0.12"
+		"damage"			"12"
 		"range"				"1500"
 		
 		// 2 degrees
 		"spread"			"2 2 0"
 		
-		"viewpunch_min"		"0.25 -0.6 0"
-		"viewpunch_max"		"0.5 0.6 0"
+		"viewpunch_min"		"-0.25 -1 0"
+		"viewpunch_max"		"-2 1 0"
 	}
 	
 	
@@ -27,12 +27,13 @@ WeaponData
 	"primary_ammo"			"Pistol"
 	
 	
-	"clip_size"				"16"
+	"clip_size"				"18"
 	"default_clip"			"0"
 	
 	// Use animation time which is longer.
 	//"reloadtime"			"1.46"
 	
+	"firesingly"			"1"
 	
 	"bucket"				"1"
 	"bucket_position"		"0"

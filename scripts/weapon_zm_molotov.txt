@@ -2,7 +2,7 @@ WeaponData
 {
 	"printname"				"Molotov"
 
-	"viewmodel"				"models/weapons/c_molotov_zm.mdl"
+	"viewmodel"				"models/weapons/c_molotov_zmr.mdl"
 	"worldmodel"			"models/weapons/w_molotov.mdl"
 	
 	"player_anims"			"molotov"

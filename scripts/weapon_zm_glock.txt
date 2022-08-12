@@ -55,12 +55,12 @@ WeaponData
 		"weapon"
 		{
 			"font"			"WeaponIcons"
-			"character"		"d"
+			"character"		"("
 		}
 		"weapon_s"
 		{	
 			"font"			"WeaponIconsSelected"
-			"character"		"d"
+			"character"		"("
 		}
 		"ammo"
 		{

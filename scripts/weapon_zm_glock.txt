@@ -13,6 +13,7 @@ WeaponData
 		"firerate"			"0.12"
 		"damage"			"12"
 		"range"				"1500"
+		"firesingly"		"1"
 		
 		// 2 degrees
 		"spread"			"2 2 0"
@@ -32,8 +33,6 @@ WeaponData
 	
 	// Use animation time which is longer.
 	//"reloadtime"			"1.46"
-	
-	"firesingly"			"1"
 	
 	"bucket"				"1"
 	"bucket_position"		"0"

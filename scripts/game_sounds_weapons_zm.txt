@@ -30,6 +30,74 @@
 
 
 //
+// Pipebomb
+//
+"Weapon_Pipebomb_ZM.PowerOn"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"weapons/pipebomb/dial2.wav"
+	}
+}
+
+"Weapon_Pipebomb_ZM.Call"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"			"102"
+
+	"rndwave"
+	{
+		"wave"	"weapons/pipebomb/dial.wav"
+	}
+}
+
+"Weapon_Pipebomb_ZM.Dial2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"			"100"
+
+	"rndwave"
+	{
+		"wave"	"weapons/pipebomb/dial.wav"
+	}
+}
+
+"Weapon_Pipebomb_ZM.Dial0"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"			"98"
+
+	"rndwave"
+	{
+		"wave"	"weapons/pipebomb/dial.wav"
+	}
+}
+
+"Weapon_Pipebomb_ZM.Dial7"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"			"99"
+
+	"rndwave"
+	{
+		"wave"	"weapons/pipebomb/dial.wav"
+	}
+}
+
+
+//
 // Shotgun
 //
 "Weapon_Shotgun_ZM.Empty"

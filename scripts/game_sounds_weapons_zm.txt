@@ -96,6 +96,15 @@
 	}
 }
 
+"Weapon_Pipebomb_ZM.Ringtone"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"		"weapons/pipebomb/ringtone.wav"
+}
+
 
 //
 // Shotgun

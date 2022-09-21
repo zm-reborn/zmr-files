@@ -1,0 +1,9 @@
+PBR
+{
+	$basetexture	"models/rat/raterino_bc"
+	$bumpmap		"models/rat/raterino_n"
+	$mraotexture	"models/rat/raterino_mrao"
+	// $emissiontexture		"models/rat/mix25_e"
+	$model			1
+//	$translucent	1
+}

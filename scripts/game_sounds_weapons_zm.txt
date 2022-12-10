@@ -559,3 +559,89 @@
 	
 	"wave"			"weapons/r700/hunting_rifle_zoom.wav"
 }
+
+//
+// AR 9mm
+//
+"Weapon_Ar9mm_ZM.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55" //0.55
+	"soundlevel"		"SNDLVL_90db"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"95,105"
+
+	"wave"			"^weapons/smg_zm/smg_fire_distancefade.wav"
+}
+
+"Weapon_Ar9mm_ZM.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/pistol/pistol_empty.wav"
+}
+
+"Weapon_Ar9mm_ZM.Reload1_1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar9mm/ar9mm_reload1_1.wav"
+}
+
+"Weapon_Ar9mm_ZM.Reload1_2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar9mm/ar9mm_reload1_2.wav"
+}
+
+"Weapon_Ar9mm_ZM.Reload2_1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar9mm/ar9mm_reload2_1.wav"
+}
+
+"Weapon_Ar9mm_ZM.Reload2_2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar9mm/ar9mm_reload2_2.wav"
+}
+
+"Weapon_Ar9mm_ZM.Reload2_3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/smg_zm/smg_reload3.wav"
+}
+
+//"Weapon_Ar9mm_ZM.Draw1"
+//{
+//	"channel"		"CHAN_ITEM"
+//	"volume"		"0.6"
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"wave"		"weapons/smg_zm/smg_draw.wav"
+//}
+
+"Weapon_Ar9mm_ZM.Draw2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/smg_zm/smg_draw.wav"
+}

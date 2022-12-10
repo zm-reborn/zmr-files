@@ -645,3 +645,34 @@
 
 	"wave"		"weapons/smg_zm/smg_draw.wav"
 }
+
+//
+// Snubnose revolver
+//
+"Weapon_Snubnose_ZM.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.93"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	"pitch"			"88,93"	
+
+	"wave"			"^weapons/revolver_zm/revolver_fire.wav"
+}
+
+"Weapon_Snubnose_ZM.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/snubnose/snubnose_reload1.wav"
+}
+
+"Weapon_Snubnose_ZM.Prepare"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.9, 1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_65dB"
+	"wave"			"weapons/revolver_zm/prepare.wav"
+}

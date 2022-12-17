@@ -676,3 +676,57 @@
 	"soundlevel"  	"SNDLVL_65dB"
 	"wave"			"weapons/revolver_zm/prepare.wav"
 }
+
+
+
+//
+// Glock
+//
+"Weapon_Glock_ZM.Reload1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		")weapons/pistol_zm/pistol_zm_reload1.wav"
+}
+
+"Weapon_Glock_ZM.Reload2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		")weapons/pistol_zm/pistol_zm_reload2.wav"
+}
+
+"Weapon_Glock_ZM.Reload3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		")weapons/pistol_zm/pistol_zm_reload3.wav"
+}
+
+"Weapon_Glock_ZM.Empty"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/pistol_zm/pistol_zm_empty.wav"
+}
+
+"Weapon_Glock_ZM.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+	"rndwave"
+	{
+		"wave"		"^weapons/pistol_zm/pistol_zm_fire1_dist.wav"
+		"wave"		"^weapons/pistol_zm/pistol_zm_fire2_dist.wav"
+	}
+}

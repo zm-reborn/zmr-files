@@ -14,26 +14,174 @@
 		
 		"param1"		"key@zm_showmaptext"
 	}
-	"sharing"
-	{
-		"msg"			"#ZMTipAmmo1"
-		"time"			"15"
-		"limit"			"5"
-		
-		"param1"		"key@dropweapon"
-	}
+
 	"flashlight"
 	{
 		"msg"			"#ZMTipFlashlight"
 		"time"			"15"
 		"limit"			"3"
 	}
-	"zombietypes"
+
+	"zombietypes1"
 	{
-		"msg"			"#ZMTipZombieTypes"
+		"msg"			"#ZMTipZombieTypes1"
 		"time"			"15"
 		"limit"			"3"
 	}
+	"zombietypes2"
+	{
+		"msg"			"#ZMTipZombieTypes2"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"elevator"
+	{
+		"msg"			"#ZMTipElevator"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"openground"
+	{
+		"msg"			"#ZMTipOpenGround"
+		"time"			"15"
+		"limit"			"3"
+	}
+	
+	"keybind1"
+	{
+		"msg"			"#ZMTipKeyBind1"
+		"time"			"15"
+		"limit"			"3"
+		
+		"param1"		"key@dropweapon"
+	}
+	"keybind2"
+	{
+		"msg"			"#ZMTipKeyBind2"
+		"time"			"15"
+		"limit"			"3"
+		
+		"param1"		"key@zm_hiddenspawn"
+	}
+	
+	
+	"barrel1"
+	{
+		"msg"			"#ZMTipBarrel1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"barrel2"
+	{
+		"msg"			"#ZMTipBarrel2"
+		"time"			"15"
+		"limit"			"3"
+	}
+	
+	"commands1"
+	{
+		"msg"			"#ZMTipCommands1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"commands2"
+	{
+		"msg"			"#ZMTipCommands2"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"commands3"
+	{
+		"msg"			"#ZMTipCommands3"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"commands4"
+	{
+		"msg"			"#ZMTipCommands4"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"commands5"
+	{
+		"msg"			"#ZMTipCommands5"
+		"time"			"15"
+		"limit"			"3"
+		
+		"param1"		"key@zm_vision"
+	}
+	
+	
+	"shambler1"
+	{
+		"msg"			"#ZMTipShambler1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"shambler2"
+	{
+		"msg"			"#ZMTipShambler2"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"shambler3"
+	{
+		"msg"			"#ZMTipShambler3"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"drifter1"
+	{
+		"msg"			"#ZMTipDrifter1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	
+	"banshee1"
+	{
+		"msg"			"#ZMTipBanshee1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"banshee2"
+	{
+		"msg"			"#ZMTipBanshee2"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"banshee3"
+	{
+		"msg"			"#ZMTipBanshee3"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"banshee4"
+	{
+		"msg"			"#ZMTipBanshee4"
+		"time"			"15"
+		"limit"			"3"
+	}
+	
+	"hulk1"
+	{
+		"msg"			"#ZMTipHulk1"
+		"time"			"15"
+		"limit"			"3"
+	}
+	"hulk2"
+	{
+		"msg"			"#ZMTipHulk2"
+		"time"			"15"
+		"limit"			"3"
+	}
+
+	"immolator1"
+	{
+		"msg"			"#ZMTipImmolator1"
+		"time"			"15"
+		"limit"			"3"
+	}
+
 	"meme1"
 	{
 		"msg"			"#ZMTipMeme1"

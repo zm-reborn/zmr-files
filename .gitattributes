@@ -1,4 +1,3 @@
-resource/zombie_master_reborn_english.txt binary
-resource/zombie_master_reborn_schinese.txt binary
+resource/zombie_master_reborn_*.txt working-tree-encoding=UTF-16
 *.vmf binary
 *.vpk binary

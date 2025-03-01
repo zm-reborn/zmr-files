@@ -16,6 +16,17 @@
 //
 //-------------------------------------------------------------------------
 
+@BaseClass = Script
+[
+	vscripts(scriptlist) : "Entity Scripts" : : "Name(s) of script files that are executed after all entities have spawned."
+	thinkfunction(string) : "Script think function" : : "Name of a function in this entity's script scope which will be called automatically."
+
+	input RunScriptFile(string) : "Execute a game script file from disk."
+	input RunScriptCode(script) : "Execute a string of script source code. Backtick ( ` ) characters will be converted to quotes in-game for strings."
+	input CallScriptFunction(string) : "Execute the given function name."
+	input TerminateScriptScope(void) : "Terminates the script scope of the entity."
+]
+
 @BaseClass = Angles
 [ 
 	angles(angle) : "Pitch Yaw Roll (Y Z X)" : "0 0 0" : "This entity's orientation in the world. Pitch is rotation around the Y axis, " +
@@ -45,6 +56,9 @@
 	input EnableShadow(void) : "Turn shadow on."
 	input AlternativeSorting(bool) : "Used to attempt to fix sorting problems when rendering. True activates, false deactivates"
 	input SetModelScale(string) : "Takes two values separated by a space. The first is the target model scale. The second value is the number of seconds the change in scale will be spread over."
+	input SetModel(string) : "Changes the model to the specified path.\nForm of 'models/ammo/ammo_us.mdl'.\nIMPORTANT:\nAbsolutely NO quotes!\nMake sure you use this slash '/'.\nMerasmus says to heed this advice thou shalt corrupt the VMF."
+	input SetCycle(float) : "Skip to a specific point in the current animation"
+	input SetPlaybackRate(float) : "Change the animation speed multiplier"
 
 	// Outputs
 	output OnIgnite(void) : "Fired when this object catches fire."
@@ -57,7 +71,7 @@
 	input GoDown(void) : "Tells the platform to go down."
 ]
 
-@BaseClass = Targetname 
+@BaseClass base(Script) = Targetname 
 [ 
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	
@@ -590,6 +604,9 @@
 	input SetEndDistLerpTo(float) : "Set the fog end distance."
 	input StartFogTransition(void) : "Start fog transition."
 
+// DON'T MODIFY RADIAL FOG, ASSUME IT'S ALWAYS ON.
+//	input SetRadial(bool) : "Set the frog to be radial or not."
+
 	// Starting fog parameters for the level. These are selectable per LOD.	
 	fogenable(choices) : "Fog Enable" : 0 =
 	[
@@ -612,6 +629,13 @@
 	fogstart(string) : "Fog Start" : "500.0"
 	fogend(string) : "Fog End" : "2000.0"
 	fogmaxdensity(float) : "Fog Max Density [0..1]" : "1"
+
+// DON'T MODIFY RADIAL FOG, ASSUME IT'S ALWAYS ON.
+//	fogradial(choices) : "Use Radial Fog?" : 0 =
+//	[
+//		0 : "No"
+//		1 : "Yes"
+//	]
 
 	foglerptime(float) : "Interpolate time" : "0"
 	
@@ -2313,6 +2337,12 @@
 	fogdir(string) : "Primary Fog Dir" : "1 0 0"
 	fogstart(string) : "Fog Start" : "500.0" : "Distance at which the skybox fog should start."
 	fogend(string) : "Fog End" : "2000.0" : "Distance at which the skybox fog should be fully opaque."
+// DON'T MODIFY RADIAL FOG, ASSUME IT'S ALWAYS ON.
+//	fogradial(choices) : "Use Radial Fog?" : 0 =
+//	[
+//		0 : "No"
+//		1 : "Yes"
+//	]
 ]
 
 @BaseClass base(Targetname, ResponseContext) = BaseSpeaker
@@ -3827,6 +3857,59 @@
 	input SetSpeed(float) : "Set the speed at which the door rotates. 100 is default."
 ]
 
+//-------------------------------------------------------------------------
+// VScript
+//-------------------------------------------------------------------------
+
+@PointClass base(Targetname) iconsprite("editor/logic_script.vmt") = logic_script :
+	"An entity that acts as a container for scripts"
+[
+	Group00(target_destination) : "EntityGroup[0]" : : "Entity group 0"
+	Group01(target_destination) : "EntityGroup[1]" : : "Entity group 1"
+	Group02(target_destination) : "EntityGroup[2]" : : "Entity group 2"
+	Group03(target_destination) : "EntityGroup[3]" : : "Entity group 3"
+	Group04(target_destination) : "EntityGroup[4]" : : "Entity group 4"
+	Group05(target_destination) : "EntityGroup[5]" : : "Entity group 5"
+	Group06(target_destination) : "EntityGroup[6]" : : "Entity group 6"
+	Group07(target_destination) : "EntityGroup[7]" : : "Entity group 7"
+	Group08(target_destination) : "EntityGroup[8]" : : "Entity group 8"
+	Group09(target_destination) : "EntityGroup[9]" : : "Entity group 9"
+	Group10(target_destination) : "EntityGroup[10]" : : "Entity group 10"
+	Group11(target_destination) : "EntityGroup[11]" : : "Entity group 11"
+	Group12(target_destination) : "EntityGroup[12]" : : "Entity group 12"
+	Group13(target_destination) : "EntityGroup[13]" : : "Entity group 13"
+	Group14(target_destination) : "EntityGroup[14]" : : "Entity group 14"
+	Group15(target_destination) : "EntityGroup[15]" : : "Entity group 15"
+]
+
+//-------------------------------------------------------------------------
+// Used to listen to events called from code
+//-------------------------------------------------------------------------
+
+@PointClass base(Targetname) iconsprite("editor/logic_eventlistener.vmt") = logic_eventlistener :
+	"An entity that can listen to events fired from code and fire " +
+	"and output when it happens."
+[
+	EventName(string) : "Event Name" : "" : "The name of the event that you want to listen for."
+	IsEnabled(choices) : "Start Enabled" : 1 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	TeamNum(choices) : "Team Number" : -1 : "If set, will only fire its output if the event is generated from someone of the specified team." =
+	[
+		-1 : "Don't care"
+		2 : "Human"
+		3 : "Zombie Master"
+	]
+		
+	// Inputs
+	input Enable(void) : "Enable the logic_measure_movement."
+	input Disable(void) : "Disable the logic_measure_movement."
+	
+	// Outputs
+	output OnEventFired(void)  : "Fired when the event has been detected."
+]
 
 //-------------------------------------------------------------------------
 //
@@ -5401,7 +5484,6 @@
 	// Inputs
 	input SetAnimation(string) : "Force the prop to play an animation. The parameter should be the name of the animation."
 	input SetDefaultAnimation(string) : "Set the Default Animation to the one specified in the parameter."
-	input SetPlaybackRate(float) : "Set the playback rate for the animation."
 	input SetBodyGroup(integer) : "Set the visible bodygroup, by index."
 	input TurnOn(void) : "Make the prop visible."
 	input TurnOff(void) : "Make the prop invisible."
@@ -6607,4 +6689,11 @@
 @SolidClass base(Targetname) = func_detail_blocker : 
 	"A brush entity that prevents detail sprites from being placed inside its volume."
 [
+]
+
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = skybox_swapper : 
+	"An entity that precaches skybox materials and swaps them on trigger." 
+[
+	SkyboxName(string) : "Skybox Material Name" : "sky_day01_01"
+	input Trigger(void) : "Swap to this skybox."
 ]

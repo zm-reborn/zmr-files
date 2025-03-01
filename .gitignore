@@ -26,6 +26,7 @@ stats.txt
 server_blacklist.txt
 serverconfig.vdf
 
+bin
 addons/
 cfg/sourcemod/
 custom/
@@ -52,4 +53,3 @@ downloadlists/
 
 videoconfig_linux.cfg
 glshaders.cfg
-

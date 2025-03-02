@@ -965,44 +965,4 @@
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
 	}
-	"D3D9ExLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"D3D9ExLabel"
-		"xpos"			"22"
-		"ypos"			"410"
-		"wide"			"288"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1" [!$POSIX]
-		"visible"		"0" [$POSIX]
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#GameUI_D3D9Ex"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
-	}
-	"D3D9Ex"
-	{
-		"ControlName"	"ComboBox"
-		"fieldName"		"D3D9Ex"
-		"xpos"			"330"
-		"ypos"			"410"
-		"wide"			"132"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1" [!$POSIX]
-		"visible"		"0" [$POSIX]
-		"enabled"		"1"
-		"tabPosition"	"15"
-		"textHidden"	"0"
-		"editable"		"0"
-		"maxchars"		"-1"
-		"NumericInputOnly" "0"
-		"unicode"		"0"
-	}
 }

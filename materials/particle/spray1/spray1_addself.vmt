@@ -13,10 +13,4 @@ $startfadesize .675
 $endfadesize .75
 $depthblendscale 4
 
-"GPU<2?$BLENDFRAMES" 0
-"GPU<2?$DEPTHBLEND" 0
-
-
-
-
 }

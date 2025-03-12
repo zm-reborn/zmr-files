@@ -37,16 +37,17 @@
 		}
 		
 		//
-		// Spawn other rifle types in old maps.
-		// r700 and winchester
+		// Spawn sniper rifles in old maps.
 		//
-		"Stock_SpawnOtherRifleTypes"
+		"Stock_SpawnSnipers"
 		{
 			"onlyoldmaps"		"1"
+
+			"replace_frac"			"0.3"
 			
 			"filter_class"		"weapon_zm_rifle"
 			
-			"replace"		"Rifle"
+			"replace"		"weapon_zm_r700"
 		}
 
 		//
@@ -77,11 +78,14 @@
 			"replace"		"weapon_zm_ar9mm"
 		}
 		
-		//"Stock_SpawnOtherPistolTypes"
-		//{
-		//	"filter_class"		"weapon_zm_pistol"
-		//	
-		//	"replace"		"Pistol"
-		//}
+		//
+		// Spawn other pistol types.
+		//
+		"Stock_SpawnOtherPistolTypes"
+		{
+			"filter_class"		"weapon_zm_pistol"
+			
+			"replace"		"Pistol"
+		}
 	}
 }

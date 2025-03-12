@@ -47,7 +47,7 @@ Scheme
 		
 		"ZMScoreboardBg"	"50 0 0 150"
 		"ZMMainMenuBg"		"40 0 0 255"
-		"ZMLoadingBg"		"28 0 0 255"
+		"ZMLoadingBg"		"40 0 0 255"
 		
 		//"FgColor"			"255 220 0 100"
 		"FgColor"			"255 255 255 100"

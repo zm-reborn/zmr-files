@@ -121,7 +121,7 @@
 
 "Weapon_Shotgun_ZM.Reload"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -135,7 +135,7 @@
 
 "Weapon_Shotgun_ZM.Special1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -150,7 +150,7 @@
 
 "Weapon_Shotgun_ZM.DrawPump"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -161,6 +161,35 @@
 		"wave"			"^weapons/shotgun_zm/cock_zm_2.wav"
 		"wave"			"^weapons/shotgun_zm/cock_zm_3.wav"
 	}
+}
+
+"Weapon_Shotgun_ZM.EmptyPump"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/shotgun_zm/shotgun_empty_pumpback.wav"
+}
+
+"Weapon_Shotgun_ZM.EmptyInsert"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/shotgun_zm/shotgun_empty_insert.wav"
+
+}
+
+"Weapon_Shotgun_ZM.EmptyPump2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/shotgun_zm/shotgun_empty_pumpfwd.wav"
+
 }
 
 "Weapon_Shotgun_ZM.Single"
@@ -195,7 +224,7 @@
 
 "Weapon_Rifle_ZM.Reload"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -209,11 +238,39 @@
 
 "Weapon_Rifle_ZM.Special1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"^weapons/rifle_zm/zm_rifle_lever.wav"
+	"wave"		"weapons/rifle_zm/zm_rifle_lever.wav"
+}
+
+
+"Weapon_Rifle_ZM.LeverBack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/rifle_zm/zm_rifle_leverback.wav"
+}
+
+"Weapon_Rifle_ZM.LeverForward"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/rifle_zm/zm_rifle_leverfwd.wav"
+}
+
+"Weapon_Rifle_ZM.LeverForward2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"weapons/rifle_zm/zm_rifle_leverfwd2.wav"
 }
 
 "Weapon_Rifle_ZM.Single"
@@ -236,7 +293,7 @@
 //
 "Weapon_SMG_ZM.Draw"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -245,7 +302,7 @@
 
 "Weapon_SMG_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -254,7 +311,7 @@
 
 "Weapon_SMG_ZM.Reload2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -263,7 +320,7 @@
 
 "Weapon_SMG_ZM.Reload3"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -296,16 +353,16 @@
 //
 "Weapon_Pistol_ZM.Draw"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		")weapons/pistol_zm/pistol_zm_reload1.wav"
+	"wave"		")weapons/pistol_zm/pistol_zm_draw.wav"
 }
 
 "Weapon_Pistol_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -314,7 +371,7 @@
 
 "Weapon_Pistol_ZM.Reload2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -323,7 +380,7 @@
 
 "Weapon_Pistol_ZM.Reload3"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -406,17 +463,54 @@
 	"wave"			"^weapons/revolver_zm/revolver_fire.wav"
 }
 
-"Weapon_Revolver_ZM.Reload"
+"Weapon_Revolver_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"		"SNDLVL_NORM"
 
-	"wave"			"weapons/revolver_zm/revolver_reload_f1.wav"
+	"wave"			"weapons/revolver_zm/revolver_reload_open.wav"
 }
+
+"Weapon_Revolver_ZM.Reload2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/revolver_zm/revolver_reload_eject.wav"
+}
+
+"Weapon_Revolver_ZM.Reload3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/revolver_zm/revolver_reload_insert.wav"
+}
+
+"Weapon_Revolver_ZM.Reload4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/revolver_zm/revolver_reload_close.wav"
+}
+
+"Weapon_Revolver_ZM.Reload5"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/revolver_zm/revolver_reload_spin.wav"
+}
+
 "Weapon_Revolver_ZM.Prepare"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.9, 1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
@@ -429,7 +523,7 @@
 //
 "Weapon_OverUnder_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -438,7 +532,7 @@
 
 "Weapon_OverUnder_ZM.Reload2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -447,7 +541,7 @@
 
 "Weapon_OverUnder_ZM.Reload3"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -460,7 +554,7 @@
 
 "Weapon_OverUnder_ZM.Reload4"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -513,7 +607,7 @@
 
 "Weapon_R700_ZM.BoltOpen"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -522,7 +616,7 @@
 
 "Weapon_R700_ZM.BoltClose"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -531,7 +625,7 @@
 
 "Weapon_R700_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -540,7 +634,7 @@
 
 "Weapon_R700_ZM.Reload2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -549,7 +643,7 @@
 
 "Weapon_R700_ZM.InsertRound"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -562,7 +656,7 @@
 
 "Weapon_R700_ZM.Zoom"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"
 	"soundlevel"	"SNDLVL_NORM"
 	
@@ -580,7 +674,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"95,105"
 
-	"wave"			"^weapons/smg_zm/smg_fire_distancefade.wav"
+	"wave"			"^weapons/ar9mm/9mmar_fire.wav"
 }
 
 "Weapon_Ar9mm_ZM.Empty"
@@ -594,7 +688,7 @@
 
 "Weapon_Ar9mm_ZM.Reload1_1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -603,7 +697,7 @@
 
 "Weapon_Ar9mm_ZM.Reload1_2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -612,7 +706,7 @@
 
 "Weapon_Ar9mm_ZM.Reload2_1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -621,7 +715,7 @@
 
 "Weapon_Ar9mm_ZM.Reload2_2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -630,16 +724,16 @@
 
 "Weapon_Ar9mm_ZM.Reload2_3"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"weapons/smg_zm/smg_reload3.wav"
+	"wave"			"weapons/ar9mm/ar9mm_bolt.wav"
 }
 
 //"Weapon_Ar9mm_ZM.Draw1"
 //{
-//	"channel"		"CHAN_ITEM"
+//	"channel"		"CHAN_STATIC"
 //	"volume"		"0.6"
 //	"soundlevel"	"SNDLVL_NORM"
 //
@@ -648,11 +742,11 @@
 
 "Weapon_Ar9mm_ZM.Draw2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.6"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/smg_zm/smg_draw.wav"
+	"wave"		"weapons/ar9mm/ar9mm_draw.wav"
 }
 
 //
@@ -663,23 +757,52 @@
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.93"
 	"soundlevel"		"SNDLVL_GUNFIRE"
-	"pitch"			"88,93"	
+	"pitch"			"93,105"	
 
-	"wave"			"^weapons/revolver_zm/revolver_fire.wav"
+	"wave"			"^weapons/snubnose/snubnose_fire.wav"
 }
 
-"Weapon_Snubnose_ZM.Reload"
+"Weapon_Snubnose_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.7"
 	"soundlevel"		"SNDLVL_NORM"
 
-	"wave"			"weapons/snubnose/snubnose_reload1.wav"
+	"wave"			"weapons/snubnose/snubnose_reload_open.wav"
+}
+
+"Weapon_Snubnose_ZM.Reload2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/snubnose/snubnose_reload_eject.wav"
+}
+
+
+"Weapon_Snubnose_ZM.Reload3"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/snubnose/snubnose_reload_insert.wav"
+}
+
+
+"Weapon_Snubnose_ZM.Reload4"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/snubnose/snubnose_reload_close.wav"
 }
 
 "Weapon_Snubnose_ZM.Prepare"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.9, 1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_65dB"
@@ -693,8 +816,9 @@
 //
 "Weapon_Glock_ZM.Reload1"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
+	"pitch"			"90,100"
 	"soundlevel"	"SNDLVL_NORM"
 
 	"wave"		")weapons/pistol_zm/pistol_zm_reload1.wav"
@@ -702,7 +826,7 @@
 
 "Weapon_Glock_ZM.Reload2"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -711,7 +835,7 @@
 
 "Weapon_Glock_ZM.Reload3"
 {
-	"channel"		"CHAN_ITEM"
+	"channel"		"CHAN_STATIC"
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_NORM"
 
@@ -733,9 +857,6 @@
 	"volume"		"0.8"
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,101"
-	"rndwave"
-	{
-		"wave"		"^weapons/pistol_zm/pistol_zm_fire1_dist.wav"
-		"wave"		"^weapons/pistol_zm/pistol_zm_fire2_dist.wav"
-	}
+
+	"wave"		"^weapons/glock/glock_fire1.wav"
 }

@@ -1,7 +1,6 @@
 ___________________________
 Zombie Master: Reborn  Credits:
 
-brendaym			- Animator
 BurntCornFlakes	- Modeller
 Four Tony			- Modeller, Mapper
 Mehis			- Lead dev, Programmer
@@ -9,13 +8,14 @@ Rhett Dahl			- Composer
 Sage J. Fox		- Modeller
 That 1 Guy		- Sound designer
 The Renegadist		- Lead dev, Texture artist
-Yeckoh			- Animator, Modeller
+Yeckoh			- Animator, Modeller, Texture artist
 ____________
 Contributors:
 
 Asg_alligator		- Model edits
 Biohazard			- Flashlight shader fix code
 Blixibon			- Code
+brendaym			- Animations
 Fa				- Forestforthewicked map
 Forrest Mark X		- Viewmodel c-arm edits
 Game Zombie		- Model edits
@@ -73,4 +73,4 @@ Suicide42		- Concept art, writing
 Tannerbondy	- Weapon selection icons
 
 
-If you feel left out or you're not happy that we're using your work, please contact us @ contact@zmreborn.com .
+If you feel left out or you're not happy that we're using your work, please contact us @ contact@zombiemaster.dev .

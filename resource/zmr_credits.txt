@@ -21,7 +21,6 @@ Forrest Mark X		- Viewmodel c-arm edits
 Game Zombie		- Model edits
 Joshua Ashton		- VS2019 support edits
 Keyb0ard			- Footstep sounds
-KnechtRuprecht		- Winchester M1912 model and textures
 Kud				- Simplified chinese translation
 Marphy Black		- Zombie textures, model edits
 MaxOfS2D			- Viewmodel arms (c-arms, model and textures)
@@ -48,7 +47,6 @@ __________
 Licenses:
 
 P220				- https://gamebanana.com/models/4220
-Winchester M1912	- https://gamebanana.com/models/3472
 Shotgun shell		- https://gamebanana.com/models/3434
 
 

@@ -731,14 +731,14 @@
 	"wave"			"weapons/ar9mm/ar9mm_bolt.wav"
 }
 
-//"Weapon_Ar9mm_ZM.Draw1"
-//{
-//	"channel"		"CHAN_STATIC"
-//	"volume"		"0.6"
-//	"soundlevel"	"SNDLVL_NORM"
-//
-//	"wave"		"weapons/smg_zm/smg_draw.wav"
-//}
+"Weapon_Ar9mm_ZM.SafetyToggle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/ar9mm/ar9mm_safetytoggle.wav"
+}
 
 "Weapon_Ar9mm_ZM.Draw2"
 {

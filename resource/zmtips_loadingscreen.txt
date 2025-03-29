@@ -1,3 +1,11 @@
+// Loading screen tips.
+//
+// msg				- The actual text, should be a reference to a localized string, ie. "#NameWithAHashtag".
+// time				- How long the tip is shown before changing.
+// limit			- This basically means the priority. Ie. higher limit will be shown more often at first until all tips are exhausted and then tips are shown randomly.
+// param<number>	- Used to give the text a parameter. Format: "type@value"
+//					  key@command | cvar@cvarname
+//
 "Tips"
 {
 	"intro"

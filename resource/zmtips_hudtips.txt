@@ -1,3 +1,18 @@
+// In-game tooltips.
+//
+// msg				- The actual text, should be a reference to a localized string, ie. "#NameWithAHashtag".
+// icon				- Icon next to the message.
+// time				- How long the tooltip is shown for.
+// limit			- How many times this is shown before never showing it again.
+// limitpergame		- How many times this is shown per session.
+// priority			- Higher priority will be shown first.
+// team				- The team on which this should be shown. 2 = Survivor, 3 = ZM
+// pulse			- 0/1, Fancy pulsing effect.
+// sound			- 0/1, Play sound?
+// random			- 0/1, Should this be shown randomly throughout the game?
+// param<number>	- Used to give the text a parameter. Format: "type@value"
+//					  key@command | cvar@cvarname
+//
 "Tips"
 {
 	"zmintro"

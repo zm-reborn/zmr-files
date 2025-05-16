@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture 	"models/arms/m_btartan_bc"
+	$bumpmap		"models/arms/m_btartan_n"
+	$mraotexture	"models/arms/m_btartan_mrao"
+	$model			1
+}

@@ -1,155 +1,224 @@
 // The default player models.
 //
-// model		- You're gonna need this one
-// armsmodel	- If not set, uses models/weapons/c_arms_citizen.mdl
-// armscolor	- The color of the sleeve
-// armsskin		- The skin, defaults to 0. 0 = white, 1 = black
-// gender		- Gender, 0 = male, 1 = female. Male by default.
+// model				- You're gonna need this one
+// gender				- Gender, 0 = male, 1 = female. Male by default.
+// armsmodel			- If not set, uses models/weapons/c_arms_citizen.mdl
+// armsskin				- The skin, defaults to 0. 0 = white, 1 = black
+// armsbodygroups		- The model's bodygroups and their values.
+// armscolor			- The color of the sleeve. Not really used, unless using fallback arms model. (c_arms_citizen)
 //
 "PlayerModels"
 {
 	"Female #1"
 	{
-		"model"		"models/humans/group02/female_01.mdl"
-		"armscolor"		"100 163 168"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"0"
+		"model"					"models/humans/group02/female_01.mdl"
+		"gender"				"1"
+
+		"armscolor"				"100 163 168"
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"0"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"0"
+		}
 	}
 	"Female #2"
 	{
-		"model"		"models/humans/group02/female_02.mdl"
-		"armscolor"		"87 95 73"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"1"
+		"model"					"models/humans/group02/female_02.mdl"
+		"gender"				"1"
+
+		"armscolor"				"87 95 73"		
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"1"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"1"
+		}
 	}
 	"Female #3"
 	{
-		"model"		"models/humans/group02/female_03.mdl"
-		"armscolor"		"131 167 115"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"2"
+		"model"					"models/humans/group02/female_03.mdl"
+		"gender"				"1"
+
+		"armscolor"				"131 167 115"
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"2"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"2"
+		}
 	}
 	"Female #4"
 	{
-		"model"		"models/humans/group02/female_04.mdl"
-		"armscolor"		"93 85 75"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"3"
+		"model"					"models/humans/group02/female_04.mdl"
+		"gender"				"1"
+
+		"armscolor"				"93 85 75"
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"3"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"3"
+		}
 	}
 	"Female #5"
 	{
-		"model"		"models/humans/group02/female_06.mdl"
-		"armscolor"		"152 57 63"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"4"
+		"model"					"models/humans/group02/female_06.mdl"
+		"gender"				"1"
+
+		"armscolor"				"152 57 63"
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"4"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"4"
+		}
 	}
 	"Female #6"
 	{
-		"model"		"models/humans/group02/female_07.mdl"
-		"armscolor"		"106 70 96"
-		"gender"		"1"
-		
-		"armsmodel"		"models/weapons/c_arms_female_bare.mdl"
-		"armsskin"		"5"
+		"model"					"models/humans/group02/female_07.mdl"
+		"gender"				"1"
+
+		"armscolor"				"106 70 96"
+		"armsmodel"				"models/weapons/c_arms_female.mdl"
+		"armsskin"				"5"
+		"armsbodygroups"
+		{
+			"f_arm_sleeves"		"5"
+		}
 	}
 	"Male #1"
 	{
-		"model"		"models/humans/group02/male_01.mdl"
-		"armscolor"		"155 161 163"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"0"
+		"model"					"models/humans/group02/male_01.mdl"
+
+		"armscolor"				"155 161 163"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"0"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"0"
+		}
 	}
 	"Male #2"
 	{
-		"model"		"models/humans/group02/male_02.mdl"
-		"armscolor"		"74 75 74"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"1"
+		"model"					"models/humans/group02/male_02.mdl"
+
+		"armscolor"				"74 75 74"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"1"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"1"
+		}
 	}
 	"Male #3"
 	{
-		"model"		"models/humans/group02/male_03.mdl"
-		"armscolor"		"164 76 19"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"2"
+		"model"					"models/humans/group02/male_03.mdl"
+
+		"armscolor"				"164 76 19"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"2"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"2"
+		}
 	}
 	"Male #4"
 	{
-		"model"		"models/humans/group02/male_04.mdl"
-		"armscolor"		"110 41 30"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"3"
+		"model"					"models/humans/group02/male_04.mdl"
+
+		"armscolor"				"110 41 30"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"3"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"3"
+		}
 	}
 	"Male #5"
 	{
-		"model"		"models/humans/group02/male_05.mdl"
-		"armscolor"		"119 120 119"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"4"
+		"model"					"models/humans/group02/male_05.mdl"
+
+		"armscolor"				"119 120 119"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"4"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"4"
+		}
 	}
 	"Male #6"
 	{
-		"model"		"models/humans/group02/male_06.mdl"
-		"armscolor"		"47 54 37"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"5"
+		"model"					"models/humans/group02/male_06.mdl"
+
+		"armscolor"				"47 54 37"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"5"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"5"
+		}
 	}
 	"Male #7"
 	{
-		"model"		"models/humans/group02/male_07.mdl"
-		"armscolor"		"45 33 20"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"6"
+		"model"					"models/humans/group02/male_07.mdl"
+
+		"armscolor"				"45 33 20"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"6"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"6"
+		}
 	}
 	"Male #8"
 	{
-		"model"		"models/humans/group02/male_08.mdl"
-		//"armscolor"		"61 77 90"
-		"armscolor"		"100 100 100"
-		
-		"armsmodel"		"models/weapons/c_arms_male_gloves.mdl"
-		"armsskin"		"7"
+		"model"					"models/humans/group02/male_08.mdl"
+
+		//"armscolor"				"61 77 90"
+		"armscolor"				"100 100 100"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"7"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"7"
+		}
 	}
 	"Male #9"
 	{
-		"model"		"models/humans/group02/male_09.mdl"
-		//"armscolor"		"50 54 74"
-		"armscolor"		"100 100 100"
-		
-		"armsmodel"		"models/weapons/c_arms_male_gloves.mdl"
-		"armsskin"		"8"
+		"model"					"models/humans/group02/male_09.mdl"
+
+		//"armscolor"				"50 54 74"
+		"armscolor"				"100 100 100"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"8"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"8"
+		}
 	}
 	"Pi"
 	{
-		"model"		"models/male_pi.mdl"
-		"armscolor"		"40 39 31"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"9"
+		"model"					"models/male_pi.mdl"
+
+		"armscolor"				"40 39 31"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"9"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"9"
+		}
 	}
 	"Lawyer"
 	{
-		"model"		"models/male_lawyer.mdl"
-		"armscolor"		"93 92 93"
-		
-		"armsmodel"		"models/weapons/c_arms_male_bare.mdl"
-		"armsskin"		"10"
+		"model"					"models/male_lawyer.mdl"
+
+		"armscolor"				"93 92 93"
+		"armsmodel"				"models/weapons/c_arms_male.mdl"
+		"armsskin"				"10"
+		"armsbodygroups"
+		{
+			"m_arm_sleeves"		"10"
+		}
 	}
 }

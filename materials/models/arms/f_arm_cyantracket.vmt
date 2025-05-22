@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture 	"models/arms/f_cyantrack_bc"
+	$bumpmap		"models/arms/f_cyantrack_n"
+	$mraotexture	"models/arms/f_cyantrack_mrao"
+	$model			1
+}

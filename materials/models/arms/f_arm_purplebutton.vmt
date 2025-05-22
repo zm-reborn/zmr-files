@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture 	"models/arms/f_purpleshirt_bc"
+	$bumpmap		"models/arms/f_purpleshirt_n"
+	$mraotexture	"models/arms/f_purpleshirt_mrao"
+	$model			1
+}

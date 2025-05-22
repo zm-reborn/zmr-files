@@ -1,7 +1,0 @@
-PBR
-{
-	$basetexture 	"models/arms/f_rpinstripe_bc"
-	$bumpmap		"models/arms/f_rpinstripe_n"
-	$mraotexture	"models/arms/f_rpinstripe_mrao"
-	$model			1
-}

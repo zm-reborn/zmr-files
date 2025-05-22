@@ -1,0 +1,7 @@
+PBR
+{
+	$basetexture 	"models/arms/f_taupeswacket_bc"
+	$bumpmap		"models/arms/f_taupeswacket_n"
+	$mraotexture	"models/arms/f_taupeswacket_mrao"
+	$model			1
+}

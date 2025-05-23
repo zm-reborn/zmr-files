@@ -46,7 +46,7 @@ WeaponData
 	"primary_ammo"			"Revolver"
 	
 	
-	"clip_size"				"6"
+	"clip_size"				"5"
 	"default_clip"			"0"
 	
 	

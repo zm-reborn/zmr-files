@@ -10,8 +10,7 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		// FRAMES fire 0-27, lever 28-97
-		"firerate"			"0.35"
+		"firerate"			"0.32"
 		"damage"			"50"
 		"range"				"2000"
 		

@@ -10,7 +10,7 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		"firerate"			"0.35"
+		"firerate"			"0.116"
 		"damage"			"6"
 		"range"				"500"
 		"bulletspershot"	"7"
@@ -22,7 +22,7 @@ WeaponData
 		"viewpunch_max"		"-5 3.5 0"
 	}
 	
-	"pumptime"				"0.65"
+	"pumptime"				"1"
 	
 	"crosshair"				"Shotgun"
 	

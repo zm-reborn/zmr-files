@@ -27,7 +27,7 @@ WeaponData
 	"primary_ammo"			"Pistol"
 	
 	
-	"clip_size"				"16"
+	"clip_size"				"8"
 	"default_clip"			"0"
 	
 	// Use animation time which is longer.

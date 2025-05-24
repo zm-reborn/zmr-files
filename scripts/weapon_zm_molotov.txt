@@ -17,6 +17,11 @@ WeaponData
 	"angvel_min"			"0 0 -500"
 	"angvel_max"			"0 0 -100"
 
+	// Cook it.
+	"arm_on_ready"			"1"
+
+	// Explodes in X seconds.
+	"detonation_time"		"3"
 	
 	"crosshair"				"Throwable"
 	

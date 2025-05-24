@@ -19,6 +19,12 @@ WeaponData
 
 	"angvel_min"			"-600 -600 -600"
 	"angvel_max"			"600 600 600"
+
+	// Cook it.
+	"arm_on_ready"			"1"
+
+	// Explodes in X seconds.
+	"detonation_time"		"3"
 	
 	"crosshair"				"Throwable"
 	
@@ -37,8 +43,13 @@ WeaponData
 	
 	"reloadonladder"		"0"
 	"attackonladder"		"0"
-	"attackinwater"			"0"
+	"attackinwater"			"1"
 	
+	SoundData
+	{
+		// Projectile makes this sound when armed.
+		"special1"			"Weapon_Pipebomb_ZM.Ringtone"
+	}
 	
 	TextureData
 	{

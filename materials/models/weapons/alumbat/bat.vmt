@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture	"models/weapons/alumbat/alumbat_bc"
+	$bumpmap		"models/weapons/alumbat/alumbat_n"
+	$mraotexture	"models/weapons/alumbat/alumbat_mrao"
+	//$emissiontexture		"models/weapons/mixtape/mix25_e"
+	$model			1
+}

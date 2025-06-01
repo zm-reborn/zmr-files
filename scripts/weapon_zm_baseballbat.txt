@@ -1,0 +1,49 @@
+WeaponData
+{
+	"printname"				"Baseball Bat"
+
+	"viewmodel"				"models/weapons/c_baseballbat.mdl"
+	"worldmodel"			"models/weapons/w_bat.mdl"
+	
+	"player_anims"			"crowbar"
+	
+	
+	"PrimaryAttack"
+	{
+		"firerate"			"1"
+		"damage"			"15"
+		"range"				"50"
+		
+		"viewpunch_min"		"1 -2 0"
+		"viewpunch_max"		"2 -1 0"
+	}
+	
+	
+	"crosshair"				"Melee"
+	
+	"bucket"				"2"
+	"bucket_position"		"0"
+	"importance"			"2"
+
+	"clip_size"				"-1"
+
+	
+	SoundData
+	{
+		"single_shot"		"Weapon_Crowbar.Single"
+	}
+	
+	TextureData
+	{
+		"weapon"
+		{
+			"font"			"WeaponIcons"
+			"character"		"h"
+		}
+		"weapon_s"
+		{	
+			"font"			"WeaponIconsSelected"
+			"character"		"h"
+		}
+	}
+}

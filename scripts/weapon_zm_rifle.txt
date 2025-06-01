@@ -10,7 +10,8 @@ WeaponData
 	
 	"PrimaryAttack"
 	{
-		"firerate"			"0.32"
+// fire 0-19, lever 20-85. no idea why its not smooth at 0.316
+		"firerate"			"0.25"
 		"damage"			"50"
 		"range"				"2000"
 		

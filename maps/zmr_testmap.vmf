@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9008"
-	"mapversion" "250"
+	"editorbuild" "10343"
+	"mapversion" "256"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "250"
+	"mapversion" "256"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7709,7 +7709,7 @@ world
 		side
 		{
 			"id" "1553"
-			"plane" "(-1664 1904 -7.62939e-006) (-1664 1856 -7.62939e-006) (-1600 1856 -7.62939e-006)"
+			"plane" "(-1664 1904 -7.62939e-06) (-1664 1856 -7.62939e-06) (-1600 1856 -7.62939e-06)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7720,7 +7720,7 @@ world
 		side
 		{
 			"id" "1552"
-			"plane" "(-1664 1856 -7.62939e-006) (-1664 1904 -7.62939e-006) (-1664 1904 96)"
+			"plane" "(-1664 1856 -7.62939e-06) (-1664 1904 -7.62939e-06) (-1664 1904 96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7731,7 +7731,7 @@ world
 		side
 		{
 			"id" "1551"
-			"plane" "(-1600 1904 -7.62939e-006) (-1600 1856 -7.62939e-006) (-1600 1856 96)"
+			"plane" "(-1600 1904 -7.62939e-06) (-1600 1856 -7.62939e-06) (-1600 1856 96)"
 			"material" "DEV/DEV_MEASUREWALL01A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -128] 0.25"
@@ -7742,7 +7742,7 @@ world
 		side
 		{
 			"id" "1550"
-			"plane" "(-1600 1856 -7.62939e-006) (-1664 1856 -7.62939e-006) (-1664 1856 96)"
+			"plane" "(-1600 1856 -7.62939e-06) (-1664 1856 -7.62939e-06) (-1664 1856 96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7753,7 +7753,7 @@ world
 		side
 		{
 			"id" "1549"
-			"plane" "(-1664 1904 -7.62939e-006) (-1600 1904 -7.62939e-006) (-1600 1904 96)"
+			"plane" "(-1664 1904 -7.62939e-06) (-1600 1904 -7.62939e-06) (-1600 1904 96)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15767,10 +15767,10 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnStartTouch" "gt1,Display,,0,-1"
-		"OnStartTouch" "win_branch,SetValue,1,0,-1"
-		"OnEndTouchAll" "win_branch,SetValue,0,0,-1"
-		"OnStartTouch" "win_branch,Test,,5,-1"
+		"OnStartTouch" "gt1Display0-1"
+		"OnStartTouch" "win_branchSetValue10-1"
+		"OnEndTouchAll" "win_branchSetValue00-1"
+		"OnStartTouch" "win_branchTest5-1"
 	}
 	solid
 	{
@@ -15903,7 +15903,7 @@ entity
 	"targetname" "win_branch"
 	connections
 	{
-		"OnTrue" "win,Win,,0,1"
+		"OnTrue" "winWin01"
 	}
 	"origin" "-160 144 16"
 	editor
@@ -15921,7 +15921,7 @@ entity
 	"targetname" "lose_branch"
 	connections
 	{
-		"OnTrue" "win,Lose,,0,1"
+		"OnTrue" "winLose01"
 	}
 	"origin" "-176 144 16"
 	editor
@@ -15942,10 +15942,10 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnStartTouch" "gt2,Display,,0,-1"
-		"OnStartTouch" "lose_branch,SetValue,1,0,-1"
-		"OnEndTouchAll" "lose_branch,SetValue,0,0,-1"
-		"OnStartTouch" "lose_branch,Test,,5,-1"
+		"OnStartTouch" "gt2Display0-1"
+		"OnStartTouch" "lose_branchSetValue10-1"
+		"OnEndTouchAll" "lose_branchSetValue00-1"
+		"OnStartTouch" "lose_branchTest5-1"
 	}
 	solid
 	{
@@ -16156,7 +16156,7 @@ entity
 	"wait" "4"
 	connections
 	{
-		"OnStartTouch" "gt3,Display,,0,-1"
+		"OnStartTouch" "gt3Display0-1"
 	}
 	solid
 	{
@@ -16430,8 +16430,8 @@ entity
 	"TrapCost" "1337"
 	connections
 	{
-		"OnPressed" "break,Break,,0,1"
-		"OnPressed" "traps_toggle2,Unhide,,0.1,1"
+		"OnPressed" "breakBreak01"
+		"OnPressed" "traps_toggle2Unhide0.11"
 	}
 	editor
 	{
@@ -16455,7 +16455,7 @@ entity
 	"TrapCost" "0"
 	connections
 	{
-		"OnPressed" "pistol_template,ForceSpawn,,0,-1"
+		"OnPressed" "pistol_templateForceSpawn0-1"
 	}
 	editor
 	{
@@ -16520,8 +16520,8 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "traps_toggle*,Toggle,,0,-1"
-		"OnPressed" "gt4,Display,,0,-1"
+		"OnPressed" "traps_toggle*Toggle0-1"
+		"OnPressed" "gt4Display0-1"
 	}
 	solid
 	{
@@ -16865,17 +16865,17 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "objectives_human,SetMainText,THIS IS A HUMAN OBJECTIVE,0,-1"
-		"OnMapSpawn" "objectives_human,Display,,0.01,-1"
-		"OnMapSpawn" "objectives_zm,Display,,0.01,-1"
-		"OnMapSpawn" "objectives_zm,SetMainText,THIS IS A ZM OBJECTIVE,0,-1"
-		"OnMapSpawn" "objectives_human,SetChild1Text,THIS IS A HUMAN TIMER %s,0,-1"
-		"OnMapSpawn" "objectives_human,SetChild1TextArg,t60,0,-1"
-		"OnMapSpawn" "objectives_zm,SetChild1Text,THIS IS A ZM CHILD 1 TEXT %i!,0,-1"
-		"OnMapSpawn" "objectives_zm,SetChild1TextArg,1337,0,-1"
-		"OnMapSpawn" "dakillmani,Hide,,2,-1"
-		"OnMapSpawn" "objectives_human,SetChild2Text,RED/BLUE BUTTON COUNTER %i (Invalue),0,-1"
-		"OnMapSpawn" "objectives_human,SetChild2TextArg,0,0,-1"
+		"OnMapSpawn" "objectives_humanSetMainTextTHIS IS A HUMAN OBJECTIVE0-1"
+		"OnMapSpawn" "objectives_humanDisplay0.01-1"
+		"OnMapSpawn" "objectives_zmDisplay0.01-1"
+		"OnMapSpawn" "objectives_zmSetMainTextTHIS IS A ZM OBJECTIVE0-1"
+		"OnMapSpawn" "objectives_humanSetChild1TextTHIS IS A HUMAN TIMER %s0-1"
+		"OnMapSpawn" "objectives_humanSetChild1TextArgt600-1"
+		"OnMapSpawn" "objectives_zmSetChild1TextTHIS IS A ZM CHILD 1 TEXT %i!0-1"
+		"OnMapSpawn" "objectives_zmSetChild1TextArg13370-1"
+		"OnMapSpawn" "dakillmaniHide2-1"
+		"OnMapSpawn" "objectives_humanSetChild2TextRED/BLUE BUTTON COUNTER %i (Invalue)0-1"
+		"OnMapSpawn" "objectives_humanSetChild2TextArg00-1"
 	}
 	"origin" "-80 16 16"
 	editor
@@ -16932,7 +16932,7 @@ entity
 	"TrapCost" "0"
 	connections
 	{
-		"OnPressed" "giveres,GiveResources,-999,0,-1"
+		"OnPressed" "giveresGiveResources-9990-1"
 	}
 	editor
 	{
@@ -16955,7 +16955,7 @@ entity
 	"TrapCost" "0"
 	connections
 	{
-		"OnPressed" "givereslimit,GiveResources,1001,0,-1"
+		"OnPressed" "givereslimitGiveResources10010-1"
 	}
 	editor
 	{
@@ -16994,7 +16994,7 @@ entity
 	"TrapCost" "0"
 	connections
 	{
-		"OnPressed" "giveres,GiveResources,1001,0,-1"
+		"OnPressed" "giveresGiveResources10010-1"
 	}
 	editor
 	{
@@ -17432,7 +17432,7 @@ entity
 	"classname" "weapon_zm_pistol"
 	"angles" "0 0 0"
 	"spawnflags" "0"
-	"origin" "-944 -384 16"
+	"origin" "-952 -384 16"
 	editor
 	{
 		"color" "0 0 200"
@@ -17446,7 +17446,7 @@ entity
 	"id" "1767"
 	"classname" "weapon_zm_sledge"
 	"angles" "0 0 0"
-	"origin" "-944 -224 16"
+	"origin" "-944 -208 16"
 	editor
 	{
 		"color" "0 0 200"
@@ -17461,7 +17461,7 @@ entity
 	"classname" "weapon_zm_revolver"
 	"angles" "0 0 0"
 	"spawnflags" "0"
-	"origin" "-944 -416 16"
+	"origin" "-936 -416 16"
 	editor
 	{
 		"color" "0 0 200"
@@ -17768,7 +17768,7 @@ entity
 	"RemoveOnTrigger" "0"
 	connections
 	{
-		"OnPressed" "tm_shambler,Spawn,,0,-1"
+		"OnPressed" "tm_shamblerSpawn0-1"
 	}
 	editor
 	{
@@ -17833,7 +17833,7 @@ entity
 	"RemoveOnTrigger" "0"
 	connections
 	{
-		"OnPressed" "tm_banshee,Spawn,,0,-1"
+		"OnPressed" "tm_bansheeSpawn0-1"
 	}
 	editor
 	{
@@ -18210,7 +18210,7 @@ entity
 	"RemoveOnTrigger" "0"
 	connections
 	{
-		"OnPressed" "tm_hulk,Spawn,,0,-1"
+		"OnPressed" "tm_hulkSpawn0-1"
 	}
 	editor
 	{
@@ -18458,7 +18458,7 @@ entity
 	"RemoveOnTrigger" "0"
 	connections
 	{
-		"OnPressed" "tm_drifter,Spawn,,0,-1"
+		"OnPressed" "tm_drifterSpawn0-1"
 	}
 	editor
 	{
@@ -18480,7 +18480,7 @@ entity
 	"RemoveOnTrigger" "0"
 	connections
 	{
-		"OnPressed" "tm_immolator,Spawn,,0,-1"
+		"OnPressed" "tm_immolatorSpawn0-1"
 	}
 	editor
 	{
@@ -18752,9 +18752,9 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "normalspawns,Toggle,,0,-1"
-		"OnPressed" "testspawn,Toggle,,0,-1"
-		"OnPressed" "gt5,Display,,0,-1"
+		"OnPressed" "normalspawnsToggle0-1"
+		"OnPressed" "testspawnToggle0-1"
+		"OnPressed" "gt5Display0-1"
 	}
 	solid
 	{
@@ -18967,7 +18967,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "glowtest,ToggleGlow,,0,-1"
+		"OnPressed" "glowtestToggleGlow0-1"
 	}
 	solid
 	{
@@ -19164,7 +19164,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "glowtest2,ToggleGlow,,0,-1"
+		"OnPressed" "glowtest2ToggleGlow0-1"
 	}
 	solid
 	{
@@ -19787,7 +19787,7 @@ entity
 	"TrapCost" "1337"
 	connections
 	{
-		"OnPressed" "break2,Break,,0,1"
+		"OnPressed" "break2Break01"
 	}
 	editor
 	{
@@ -19931,8 +19931,8 @@ entity
 	"classname" "info_overlay"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "352 832 0"
-	"BasisU" "-4.37114e-008 -1 0"
-	"BasisV" "1 -4.37114e-008 0"
+	"BasisU" "-4.37114e-08 -1 0"
+	"BasisV" "1 -4.37114e-08 0"
 	"EndU" "1"
 	"EndV" "0"
 	"fademindist" "-1"
@@ -20067,8 +20067,8 @@ entity
 	"RemoveOnTrigger" "1"
 	connections
 	{
-		"OnPressed" "dafloor,Break,,0,1"
-		"OnPressed" "dakillmani,Unhide,,0,1"
+		"OnPressed" "dafloorBreak01"
+		"OnPressed" "dakillmaniUnhide01"
 	}
 	editor
 	{
@@ -20202,7 +20202,7 @@ entity
 	"targetname" "dakillmani"
 	connections
 	{
-		"OnPressed" "dakill,Enable,,0,1"
+		"OnPressed" "dakillEnable01"
 	}
 	editor
 	{
@@ -22823,7 +22823,7 @@ entity
 	"TrapCost" "1337"
 	connections
 	{
-		"OnPressed" "spawn2,AddOutput,zombieflags 15,0,1"
+		"OnPressed" "spawn2AddOutputzombieflags 1501"
 	}
 	editor
 	{
@@ -22846,10 +22846,10 @@ entity
 	"TrapCost" "1337"
 	connections
 	{
-		"OnPressed" "spawn2,Hide,,3,-1"
-		"OnPressed" "!self,Hide,,0,-1"
-		"OnPressed" "spawn2,Unhide,,6,-1"
-		"OnPressed" "!self,Unhide,,6.01,-1"
+		"OnPressed" "spawn2Hide3-1"
+		"OnPressed" "!selfHide0-1"
+		"OnPressed" "spawn2Unhide6-1"
+		"OnPressed" "!selfUnhide6.01-1"
 	}
 	editor
 	{
@@ -22993,7 +22993,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "projectedtexture1_branch,Test,,0,-1"
+		"OnPressed" "projectedtexture1_branchTest0-1"
 	}
 	solid
 	{
@@ -23086,10 +23086,10 @@ entity
 	"targetname" "projectedtexture1_branch"
 	connections
 	{
-		"OnFalse" "projectedtexture1,TurnOn,,0,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "projectedtexture1,TurnOff,,0,-1"
+		"OnFalse" "projectedtexture1TurnOn0-1"
+		"OnFalse" "!selfSetValue10-1"
+		"OnTrue" "!selfSetValue00-1"
+		"OnTrue" "projectedtexture1TurnOff0-1"
 	}
 	"origin" "224 2056 8"
 	editor
@@ -23107,10 +23107,10 @@ entity
 	"targetname" "projectedtexture2_branch"
 	connections
 	{
-		"OnFalse" "projectedtexture2,TurnOn,,0,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "projectedtexture2,TurnOff,,0,-1"
+		"OnFalse" "projectedtexture2TurnOn0-1"
+		"OnFalse" "!selfSetValue10-1"
+		"OnTrue" "!selfSetValue00-1"
+		"OnTrue" "projectedtexture2TurnOff0-1"
 	}
 	"origin" "416 2056 8"
 	editor
@@ -23232,7 +23232,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "projectedtexture2_branch,Test,,0,-1"
+		"OnPressed" "projectedtexture2_branchTest0-1"
 	}
 	solid
 	{
@@ -23348,10 +23348,10 @@ entity
 	"targetname" "projectedtexture3_branch"
 	connections
 	{
-		"OnFalse" "projectedtexture3,TurnOn,,0,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "projectedtexture3,TurnOff,,0,-1"
+		"OnFalse" "projectedtexture3TurnOn0-1"
+		"OnFalse" "!selfSetValue10-1"
+		"OnTrue" "!selfSetValue00-1"
+		"OnTrue" "projectedtexture3TurnOff0-1"
 	}
 	"origin" "608 2056 8"
 	editor
@@ -23473,8 +23473,8 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "projectedtexture3_branch,Test,,0,-1"
-		"OnPressed" "projectedtexture3_train,StartForward,,0,1"
+		"OnPressed" "projectedtexture3_branchTest0-1"
+		"OnPressed" "projectedtexture3_trainStartForward01"
 	}
 	solid
 	{
@@ -23591,10 +23591,10 @@ entity
 	"targetname" "projectedtexture4_branch"
 	connections
 	{
-		"OnFalse" "projectedtexture4,TurnOn,,0,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "projectedtexture4,TurnOff,,0,-1"
+		"OnFalse" "projectedtexture4TurnOn0-1"
+		"OnFalse" "!selfSetValue10-1"
+		"OnTrue" "!selfSetValue00-1"
+		"OnTrue" "projectedtexture4TurnOff0-1"
 	}
 	"origin" "800 2056 8"
 	editor
@@ -23716,7 +23716,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "projectedtexture4_branch,Test,,0,-1"
+		"OnPressed" "projectedtexture4_branchTest0-1"
 	}
 	solid
 	{
@@ -24103,7 +24103,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "projectedtexture4_branch2,Test,,0,-1"
+		"OnPressed" "projectedtexture4_branch2Test0-1"
 	}
 	solid
 	{
@@ -24196,10 +24196,10 @@ entity
 	"targetname" "projectedtexture4_branch2"
 	connections
 	{
-		"OnFalse" "projectedtexture4,AddOutput,enableshadows 1,0,-1"
-		"OnFalse" "!self,SetValue,1,0,-1"
-		"OnTrue" "!self,SetValue,0,0,-1"
-		"OnTrue" "projectedtexture4,AddOutput,enableshadows 0,0,-1"
+		"OnFalse" "projectedtexture4AddOutputenableshadows 10-1"
+		"OnFalse" "!selfSetValue10-1"
+		"OnTrue" "!selfSetValue00-1"
+		"OnTrue" "projectedtexture4AddOutputenableshadows 00-1"
 	}
 	"origin" "800 2040 8"
 	editor
@@ -24415,10 +24415,10 @@ entity
 	"spawnobject" "0"
 	connections
 	{
-		"OnPlayerUse" "metaldr_text0,Kill,,0,1"
-		"OnPlayerUse" "metaldr_texttrigger,Kill,,0,1"
-		"OnPlayerUse" "metaldr_helpsprite,ShowSprite,,0,1"
-		"OnPlayerUse" "text_blowtorch,Display,,0,1"
+		"OnPlayerUse" "metaldr_text0Kill01"
+		"OnPlayerUse" "metaldr_texttriggerKill01"
+		"OnPlayerUse" "metaldr_helpspriteShowSprite01"
+		"OnPlayerUse" "text_blowtorchDisplay01"
 	}
 	solid
 	{
@@ -25378,7 +25378,7 @@ entity
 	"point0" "520 -328 128"
 	"point1" "520 -328 0"
 	"targetname" "ladder1"
-	"origin" "520 -328 36"
+	"origin" "520 -328 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -25803,7 +25803,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "train1_branch,ToggleTest,,0,-1"
+		"OnPressed" "train1_branchToggleTest0-1"
 	}
 	solid
 	{
@@ -25896,8 +25896,8 @@ entity
 	"targetname" "train1_branch"
 	connections
 	{
-		"OnTrue" "train1,StartForward,,0,-1"
-		"OnFalse" "train1,Stop,,0,-1"
+		"OnTrue" "train1StartForward0-1"
+		"OnFalse" "train1Stop0-1"
 	}
 	"origin" "-2488 40 8"
 	editor
@@ -26017,7 +26017,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "objectives_human_counter,Add,1,0,-1"
+		"OnPressed" "objectives_human_counterAdd10-1"
 	}
 	solid
 	{
@@ -26199,7 +26199,7 @@ entity
 	"targetname" "objectives_human_counter"
 	connections
 	{
-		"OutValue" "objectives_human,InValueChild2Arg,,0,-1"
+		"OutValue" "objectives_humanInValueChild2Arg0-1"
 	}
 	"origin" "-112 0 16"
 	editor
@@ -26233,7 +26233,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnPressed" "objectives_human_counter,Subtract,1,0,-1"
+		"OnPressed" "objectives_human_counterSubtract10-1"
 	}
 	solid
 	{
@@ -26613,7 +26613,7 @@ entity
 	"id" "17175"
 	"classname" "weapon_zm_fireaxe"
 	"angles" "0 0 0"
-	"origin" "-944 -192 16"
+	"origin" "-944 -184 16"
 	editor
 	{
 		"color" "0 0 200"
@@ -26948,9 +26948,9 @@ entity
 	"targetname" "enemyfinder"
 	connections
 	{
-		"OnFoundPlayer" "functank,SetTargetEntity,,0,-1"
-		"OnLostPlayer" "functank,Deactivate,,0,-1"
-		"OnFoundPlayer" "functank,Activate,,0,-1"
+		"OnFoundPlayer" "functankSetTargetEntity0-1"
+		"OnLostPlayer" "functankDeactivate0-1"
+		"OnFoundPlayer" "functankActivate0-1"
 	}
 	"origin" "1600 2208 64"
 	editor
@@ -26959,6 +26959,135 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "18943"
+	"classname" "weapon_zm_baseballbat"
+	"angles" "0 0 0"
+	"origin" "-936 -232 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18958"
+	"classname" "weapon_zm_snubnose"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"origin" "-960 -416 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18965"
+	"classname" "weapon_zm_glock"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"origin" "-928 -384 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18970"
+	"classname" "item_ammo_pistol"
+	"angles" "0 0 0"
+	"origin" "-896 -384 23"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18972"
+	"classname" "item_ammo_pistol"
+	"angles" "0 0 0"
+	"origin" "-880 -384 23"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18975"
+	"classname" "item_ammo_revolver"
+	"angles" "0 0 0"
+	"origin" "-896 -416 28"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18977"
+	"classname" "item_ammo_revolver"
+	"angles" "0 0 0"
+	"origin" "-880 -416 28"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19306"
+	"classname" "weapon_zm_pipebomb"
+	"angles" "0 0 0"
+	"origin" "-896 -232 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "19311"
+	"classname" "weapon_zm_molotov"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"origin" "-896 -256 16"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

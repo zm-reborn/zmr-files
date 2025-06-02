@@ -104,3 +104,8 @@
 @PointClass base(Weapon) studio("models/weapons/w_sporting.mdl") = weapon_zm_shotgun_sporting : "OverUnder Shotgun" []
 @PointClass base(Weapon) studio("models/weapons/w_huntingrifle.mdl") = weapon_zm_r700 : "R700 Sniper" []
 @PointClass base(Weapon) studio("models/weapons/w_faxe.mdl") = weapon_zm_fireaxe : "Fire Axe" []
+@PointClass base(Weapon) studio("models/weapons/w_ar9mm.mdl") = weapon_zm_ar9mm : "AR 9mm" []
+@PointClass base(Weapon) studio("models/weapons/w_glock.mdl") = weapon_zm_glock : "Glock" []
+@PointClass base(Weapon) studio("models/weapons/w_bat.mdl") = weapon_zm_baseballbat : "Baseball Bat" []
+@PointClass base(Weapon) studio("models/weapons/w_snub.mdl") = weapon_zm_snubnose : "Snubnose Revolver" []
+@PointClass base(Weapon) studio("models/weapons/w_pipebomb.mdl") = weapon_zm_pipebomb : "Pipebomb" []

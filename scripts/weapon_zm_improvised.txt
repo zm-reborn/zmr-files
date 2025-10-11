@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Crowbar"
 
 	"viewmodel"				"models/weapons/c_crowbar_zmr.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_crowbar.mdl"
 	
 	"player_anims"			"crowbar"

@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Fire Axe"
 
 	"viewmodel"				"models/weapons/c_faxe_zmr.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_faxe.mdl"
 	
 	"player_anims"			"sledge"

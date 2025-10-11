@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"AR 9mm"
 	
 	"viewmodel"				"models/weapons/c_ar9mm.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_ar9mm.mdl"
 	
 	"player_anims"			"rifle"

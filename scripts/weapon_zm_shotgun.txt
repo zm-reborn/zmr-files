@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Shotgun"
 	
 	"viewmodel"				"models/weapons/c_shotgun_new.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_shotty.mdl"
 	
 	"player_anims"			"shotgun"

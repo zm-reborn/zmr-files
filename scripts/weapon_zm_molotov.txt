@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Molotov"
 
 	"viewmodel"				"models/weapons/c_molotov_zmr.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_molotov.mdl"
 	
 	"player_anims"			"molotov"

@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Pipebomb"
 
 	"viewmodel"				"models/weapons/c_pipebomb.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_pipebomb.mdl"
 	
 	"player_anims"			"molotov"

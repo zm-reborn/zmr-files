@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Snubnose revolver"
 	
 	"viewmodel"				"models/weapons/c_snubnose.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_snub.mdl"
 	
 	"player_anims"			"revolver"

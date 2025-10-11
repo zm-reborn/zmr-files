@@ -2,9 +2,14 @@ WeaponData
 {
 	"printname"				"Example Name"
 
-	
-	// Model paths
+	 
 	"viewmodel"				"models/weapons/c_fists_zm.mdl"
+	
+	// The arms model we will use when this weapon is equipped.
+	// 0 = Use the legacy citizen arms, beta 6 and downwards. This is for backwards compatibility.
+	// 1 = Use new arms. The armature differs enough that you will have to re-rig your models.
+	"viewmodel_armversion"	"1"
+	
 	"worldmodel"			"models/weapons/w_null.mdl"
 	
 	// These are the animations that the player will use when having

@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Baseball Bat"
 
 	"viewmodel"				"models/weapons/c_baseballbat.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_bat.mdl"
 	
 	"player_anims"			"crowbar"

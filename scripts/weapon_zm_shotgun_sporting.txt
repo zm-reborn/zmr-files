@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Over-under"
 	
 	"viewmodel"				"models/weapons/c_sporting.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_sporting.mdl"
 	
 	"player_anims"			"sporting"

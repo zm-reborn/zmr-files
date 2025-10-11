@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Rifle"
 	
 	"viewmodel"				"models/weapons/c_rifle_zm.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_rifle.mdl"
 	
 	"player_anims"			"rifle"

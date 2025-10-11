@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Hands"
 
 	"viewmodel"				"models/weapons/c_fists_zm.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_null.mdl"
 	
 	"player_anims"			"fists"

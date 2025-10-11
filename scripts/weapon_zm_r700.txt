@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"R700 Sniper"
 	
 	"viewmodel"				"models/weapons/c_r700_zm.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_huntingrifle.mdl"
 	
 	"player_anims"			"sniper"

@@ -3,6 +3,8 @@ WeaponData
 	"printname"				"Glock 17"
 	
 	"viewmodel"				"models/weapons/c_glock17.mdl"
+	"viewmodel_armversion"	"1"
+
 	"worldmodel"			"models/weapons/w_glock.mdl"
 	
 	"player_anims"			"pistol"

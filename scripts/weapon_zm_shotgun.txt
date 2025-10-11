@@ -22,7 +22,7 @@ WeaponData
 		"viewpunch_max"		"-5 3.5 0"
 	}
 	
-	"pumptime"				"1"
+	"pumptime"				"-1"
 	
 	"crosshair"				"Shotgun"
 	
@@ -46,6 +46,9 @@ WeaponData
 		"empty"				"Weapon_Shotgun_ZM.Empty"
 		"reload"			"Weapon_Shotgun_ZM.Reload"
 		"special1"			"Weapon_Shotgun_ZM.Special1"
+		"pumpback"			"Weapon_Shotgun_ZM.EmptyPump"
+		"insert"			"Weapon_Shotgun_ZM.EmptyInsert"
+		"pumpforward"		"Weapon_Shotgun_ZM.EmptyPump2"
 		"single_shot"		"Weapon_Shotgun_ZM.Single"
 	}
 

@@ -18,6 +18,8 @@ ai_frametime_limit 0.1
 // A bit more tolerance for slopes.
 nav_slope_limit 0.4
 
+// 64-bit build for some reason has broken all teeth (use wireframe to see)
+r_teeth 0
 
 //
 // stuff command line statements

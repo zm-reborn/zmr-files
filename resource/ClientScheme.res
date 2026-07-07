@@ -1083,12 +1083,12 @@ Scheme
 				"symbol"	"1"
 			}
 		}
-		"Trebuchet30" // ZMR
+		"Trebuchet16" // ZMR
 		{
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"30"
+				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1107,12 +1107,12 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"Trebuchet20" // ZMR
+		"Trebuchet12" // ZMR
 		{
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"20"
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"

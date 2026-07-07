@@ -299,7 +299,7 @@
 		
 		"imagematerial"		"zmr_mainmenu/menuicon_exit"
 		"onlyingame"		"1"
-		"image_margin"		"6"
+		"image_margin"		"0"
 	}
 	"ImagePanel"
 	{

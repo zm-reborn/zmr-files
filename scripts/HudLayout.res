@@ -209,7 +209,7 @@
 		
 		"show_avatar"		"0"
 		
-		"show_dead_icon"	"1"
+		"show_dead_icon"	"0"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
@@ -376,23 +376,6 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "12"
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "4"
-		"LineHeight"	  "22"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-
-		"TextFont"				"Default"
 	}
 
 	HudVehicle
@@ -681,5 +664,20 @@
 		"icon_inset"	"28"
 		"text_inset"	"26"
 		"NumberFont"	"HudNumbersSmall"
+	}
+
+	ZMHudDeathNotice
+	{
+		"fieldName" "ZMHudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"
+		"ypos"	 "0"
+		"wide"	 "624"
+		"tall"	 "480"
+
+		"MaxDeathNotices" "4"
+		"LineHeight"	  "22"
+		"TextFont"				"Default"
 	}
 }

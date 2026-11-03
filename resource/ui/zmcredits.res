@@ -6,7 +6,7 @@
 		"fieldName"		"ZMCreditsMenu"
 		"xpos"		"561"
 		"ypos"		"166"
-		"wide"		"440"
+		"wide"		"500"
 		"tall"		"450"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -44,7 +44,7 @@
 		"fieldName"		"RichText1"
 		"xpos"		"15"
 		"ypos"		"35"
-		"wide"		"410"
+		"wide"		"470"
 		"tall"		"360"
 		"autoResize"		"1"
 		"pinCorner"		"0"
@@ -61,7 +61,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ImagePanel"
-		"xpos"		"290"
+		"xpos"		"350"
 		"ypos"		"390"
 		"wide"		"128"
 		"tall"		"64"
@@ -80,6 +80,7 @@
 		"tileImage"		"0"
 		"tileHorizontally"		"0"
 		"tileVertically"		"0"
+		"scaleProportional"		"0"
 	}
 	"Label1"
 	{
@@ -87,7 +88,7 @@
 		"fieldName"		"Label1"
 		"xpos"		"15"
 		"ypos"		"402"
-		"wide"		"280"
+		"wide"		"320"
 		"tall"		"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -106,6 +107,7 @@
 		"textinsetx"		"0"
 		"textinsety"		"0"
 		"auto_wide_tocontents"		"0"
+		"auto_tall_tocontents"		"0"
 		"use_proportional_insets"		"0"
 	}
 }

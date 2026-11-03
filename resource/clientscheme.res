@@ -687,6 +687,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ZMMainMenuCreditsText"
+		{
+			"1"
+			{
+				"name"		 "Lucida Console"
+				"tall"		"6"
+				"weight"	"500"
+			}
+		}
 		HudNumbersSmall
 		{
 			"1"

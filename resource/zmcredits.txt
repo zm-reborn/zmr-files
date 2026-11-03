@@ -1,76 +1,86 @@
-___________________________
-Zombie Master: Reborn  Credits:
+Core contributors:
 
-BurntCornFlakes	- Modeller
-Four Tony			- Modeller, Mapper
-Mehis			- Lead dev, Programmer
-Rhett Dahl			- Composer
-Sage J. Fox		- Modeller
-That 1 Guy		- Sound designer
-The Renegadist		- Lead dev, Texture artist
-Yeckoh			- Animator, Modeller, Texture artist
-____________
+Four Tony       Mapping, some models
+Mehis           Founder, programming
+Rhett Dahl      Music
+That 1 Guy      Weapon sounds
+The Renegadist  Design & management
+yeckoh          Models, textures, animations
+
+__________
+
 Contributors:
 
-Asg_alligator		- Model edits
-Biohazard			- Flashlight shader fix code
-Blixibon			- Code
-brendaym			- Animations
-Fa				- Forestforthewicked map
-Forrest Mark X		- Viewmodel c-arm edits
-Game Zombie		- Model edits
-Joshua Ashton		- VS2019 support edits
-Keyb0ard			- Footstep sounds
-Kud				- Simplified chinese translation
-Marphy Black		- Zombie textures, model edits
-MaxOfS2D			- Viewmodel arms (c-arms, model and textures)
-Noodum			- P220 model textures
-PazerOP			- Glow outline performance + feature fixes
-Reborn			- Various sounds
--Rusty-			- Zombie textures
-ryandmaclean		- VRAD optimization
-SAM61			- P220 model
-Sandern			- Material replacement system code
-SCell555			- ShaderCompile
-Tony Sergi		- Multiplayer friendly animations code
-tgnottingham		- VBSP smoothing group fix
-wouterpleizier		- VBSP/VVIS/VRAD edits
-Yogensia			- Shotgun shell model
+Asg_alligator    Model edits
+Blixibon         Code
+brendaym         Previous weapon animations
+BurntCornFlakes  MAC-10 model
+Fa               Forestforthewicked map
+Game Zombie      Model edits
+Kud              Simplified chinese translation
+Reborn           Various sounds
+Sage J. Fox      Female zombie models
+
 __________
+
+Other folks:
+
+Biohazard       Flashlight shader fix code
+Forrest Mark X  Previous viewmodel c-arm edits
+Joshua Ashton   VS2019 support edits
+Keyb0ard        Footstep sounds
+Marphy Black    Zombie textures, model edits
+MaxOfS2D        Viewmodel arms (c-arms, model and textures)
+Noodum          P220 model textures
+PazerOP         Glow outline performance + feature fixes
+-Rusty-         Zombie textures
+ryandmaclean    VRAD optimization
+SAM61           P220 model
+Sandern         Material replacement system code
+SCell555        ShaderCompile
+Tony Sergi      Multiplayer friendly animations code
+tgnottingham    VBSP smoothing group fix
+wouterpleizier  VBSP/VVIS/VRAD edits
+Yogensia        Shotgun shell model
+
+__________
+
 Thanks to:
 
-Tannerbondy			- Ideas & inspiration
-Muob's Clubhouse peeps	- Motivating me to start the mod
-ZMR Discord			- Keeping the game alive
-YOU					- For playing ;)
+Tannerbondy             Ideas & inspiration <3
+Muob's Clubhouse peeps  Motivating me to start the mod
+ZMR Discord             Keeping the game alive
+YOU                     For playing ;)
+
 __________
+
 Licenses:
 
-P220				- https://gamebanana.com/models/4220
-Shotgun shell		- https://gamebanana.com/models/3434
+P220           https://gamebanana.com/models/4220
+Shotgun shell  https://gamebanana.com/models/3434
 
+__________
 
-____________________________________
-Original Zombie Master was developed by:
+Original Zombie Master credits:
 
-Angry Lawyer	- Founder, coder, various maps/models/textures/bits.
-DjArcas		- Sound
-Ficcy			- Models, textures
-Pi|Mu|Rho	- Mapper, various models/textures.
-qckles		- Coder
-theGreenBunny	- Coder, various models/textures, website, various sounds.
-____________
+Angry Lawyer   Founder, coder, various maps/models/textures/bits.
+DjArcas        Sound
+Ficcy          Models, textures
+Pi|Mu|Rho      Mapper, various models/textures.
+qckles         Coder
+theGreenBunny  Coder, various models/textures, website, various sounds.
+
 Contributors:
-Barnz		- Shotgun ammo box model edit
-Edcrab		- Writing
-Flyingdebris	- "Zombie Hunter" concept art (used in loading screen)
-Marphy Black	- Various environment and object textures, other minor fixes
-Mechagodzilla	- Concept art
-racer445		- Pistol and rifle textures
--Rusty-		- Survivor textures
-Sinistar		- Immolator animations
-Suicide42		- Concept art, writing
-Tannerbondy	- Weapon selection icons
+Barnz          Shotgun ammo box model edit
+Edcrab         Writing
+Flyingdebris   "Zombie Hunter" concept art (used in loading screen)
+Marphy Black   Various environment and object textures, other minor fixes
+Mechagodzilla  Concept art
+racer445       Pistol and rifle textures
+-Rusty-        Survivor textures
+Sinistar       Immolator animations
+Suicide42      Concept art, writing
+Tannerbondy    Weapon selection icons
 
 
 If you feel left out or you're not happy that we're using your work, please contact us @ contact@zombiemaster.dev .

@@ -80,6 +80,20 @@ Scheme
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
+
+		"Label.BgColor"							"0 0 0 0"
+		"ComboBoxButton.BgColor"				"0 0 0 196"
+		"Menu.BgColor"							"0 0 0 196"
+		"TextEntry.BgColor"						"0 0 0 196"
+		"Menu.ArmedBgColor"						"192 28 0 140"
+		"TextEntry.SelectedBgColor"				"192 28 0 140"
+		"TextEntry.OutOfFocusSelectedBgColor"	"192 28 0 140"
+
+		"ScrollBarButton.BgColor"				"0 0 0 0"
+		"ScrollBarButton.ArmedBgColor"			"0 0 0 0"
+		"ScrollBarButton.DepressedBgColor"		"0 0 0 0"
+		"ScrollBarSlider.FgColor"				"0 0 0 0"
+		"ScrollBarSlider.BgColor"				"0 0 0 0"
 	}
 	
 	//////////////////////// FONTS /////////////////////////////
